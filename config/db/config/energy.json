@@ -1,0 +1,75 @@
+{
+    "controllers": [
+        {
+            "leds": 62,
+            "output": {
+                "ip": "10.41.0.111",
+                "port": 21324,
+                "type": "WLED"
+            },
+            "palette": "dark",
+            "sequencer": {
+                "active": true,
+                "brightness": 1.0,
+                "color_blend": 0.2759999930858612,
+                "color_fade": 0.18199999630451202,
+                "color_threshold": 0.0,
+                "envelope": 0.925000011920929,
+                "intensity_modifier": 44.46799850463867,
+                "kernel_side": 5,
+                "kernel_sigma": 30.0,
+                "method": "energy",
+                "palette_modifier": 0.14900000393390656,
+                "type": "energy"
+            },
+            "type": "basic"
+        }
+    ],
+    "modules": {
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -24.0,
+            "threshold": 0.14300000667572021
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "palettes": [
+        {
+            "colors": [
+                "#ff0047",
+                "#00ff0a"
+            ],
+            "name": "dark"
+        },
+        {
+            "colors": [
+                "#00ff1f",
+                "#008fff",
+                "#5a00ff"
+            ],
+            "name": "glow"
+        },
+        {
+            "colors": [
+                "#8f00ff",
+                "#00ff97"
+            ],
+            "name": "main"
+        }
+    ]
+}

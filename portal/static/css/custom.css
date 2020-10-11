@@ -1,0 +1,21 @@
+html, body {
+    color: #fff;
+    text-align: center;
+    background-color: #202020;
+}
+
+.main {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.ssid, input {
+    color: #000;
+}
+
+.submit {
+    margin-top: 40px;
+    background-color: #2196F3 !important;
+    border-color: #2196F3 !important;
+}
+

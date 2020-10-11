@@ -16,6 +16,9 @@ function downloadLatestBinary() {
 # Start
 echo "Starting script."
 
+# Disable wlan0 Power Management
+/sbin/iw wlan0 set power_save off
+
 # Discard locale information.
 export LC_ALL=C; unset LANGUAGE
 

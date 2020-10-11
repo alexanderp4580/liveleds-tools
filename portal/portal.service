@@ -1,0 +1,12 @@
+[Unit]
+Description=Portal
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/portal
+ExecStart=/bin/sh -c "/bin/bash /home/pi/portal/open.sh"
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

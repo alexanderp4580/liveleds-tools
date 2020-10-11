@@ -1,0 +1,70 @@
+{
+    "controllers": [
+        {
+            "leds": 62,
+            "output": {
+                "ip": "10.41.0.111",
+                "port": 21324,
+                "type": "WLED"
+            },
+            "palette": "glow",
+            "sequencer": {
+                "active": true,
+                "brightness": 1.0,
+                "color_blend": 0.8500000238418579,
+                "color_increase": 0.45100000500679016,
+                "direction": true,
+                "fade_blend": 0.328000009059906,
+                "initial_snake_velocity": 0.550000011920929,
+                "max_snakes": 5,
+                "mirror": true,
+                "snake_length": 4,
+                "trigger": "onset",
+                "type": "snakes",
+                "velocity_decay": 0.007000000216066837,
+                "velocity_threshold": 0.12999999523162842
+            },
+            "type": "basic"
+        }
+    ],
+    "modules": {
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "method": "mkl",
+            "min_interval": 466.7699890136719,
+            "silence": -24.0,
+            "threshold": 0.3440000116825104
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "palettes": [
+        {
+            "colors": [
+                "#00ff1f",
+                "#008fff",
+                "#5a00ff"
+            ],
+            "name": "glow"
+        },
+        {
+            "colors": [
+                "#8f00ff",
+                "#00ff97"
+            ],
+            "name": "main"
+        }
+    ]
+}
