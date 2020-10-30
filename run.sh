@@ -70,4 +70,4 @@ fi
 echo "Source name: $SOURCE_NAME"
 
 echo "Running"
-./liveleds --verbosity -3 --source device --source-name $SOURCE_NAME --sample-rate 48000 --app-config db/app.json --config db/config
+./liveleds --verbosity -3 --source device --source-name $SOURCE_NAME --sample-rate 48000 --app-config congif/db/app.json --config config/db/config
