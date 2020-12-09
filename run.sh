@@ -62,7 +62,7 @@ fi
 mkdir -p db/config
 
 # Get source name
-SOURCE_NAME=$(pacmd list-sources | grep -e 'name:' -e 'index:' | grep input.usb | awk -F[\<\>] '{print $2}')
+SOURCE_NAME=$(pacmd list-sources | grep device.description | grep Mono | awk -F'"' '$0=$2')
 if [[ -z "$SOURCE_NAME" ]]; then
     echo "Failed to find source device."
     exit 1
@@ -70,4 +70,4 @@ fi
 echo "Source name: $SOURCE_NAME"
 
 echo "Running"
-./liveleds --verbosity 0 --source device --source-name $SOURCE_NAME --sample-rate 48000 --app-config config/db/app.json --config config/db/config
+./liveleds --verbose --source device --source-name "$SOURCE_NAME" --sample-rate 48000 --database "db"
