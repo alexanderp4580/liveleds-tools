@@ -41,7 +41,7 @@ if [ -f "liveleds" ] && [ -f "md5.txt" ]; then
     echo "liveleds and MD5 exist"
 else
     echo "liveleds doesn't exist. Trying to download."
-    downloadLatestBinary
+    downloadLatestBinary || true
 fi
 
 # Validate binary
@@ -54,12 +54,7 @@ echo "Result   ${MD5_RESULT}"
 # Compare MD5 sums
 if [[ "$MD5_EXPECTED" != "$MD5_RESULT" ]]; then
     echo "Failed to match MD5 hashes"
-    rm md5.txt
-    exit 1
 fi
-
-# Create database dirs
-mkdir -p db/config
 
 # Get source name
 SOURCE_NAME=$(pacmd list-sources | grep device.description | grep Mono | awk -F'"' '$0=$2')
