@@ -1,0 +1,35 @@
+{
+    "modules": {
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "method": "mkl",
+            "min_interval": 2.0,
+            "silence": -28.0,
+            "threshold": -0.460999995470047
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [
+        {
+            "brightness": 1.0,
+            "color_increase": 1.003999948501587,
+            "fade_blend": 0.09600000083446503,
+            "length": 11,
+            "randomize": false,
+            "type": "blocks"
+        }
+    ]
+}

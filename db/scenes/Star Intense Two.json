@@ -22,5 +22,20 @@
             "threshold": 0.30000001192092896
         }
     },
-    "sequencers": []
+    "sequencers": [
+        {
+            "brightness": 1.0,
+            "color_blend": 1.0,
+            "color_fade": 0.210999995470047,
+            "color_threshold": 0.0,
+            "envelope": 0.6740000247955322,
+            "intensity_modifier": 15.208999633789063,
+            "kernel_side": 3,
+            "kernel_sigma": 8.519000053405762,
+            "min_level": 0.013000000268220901,
+            "palette_modifier": 0.014000000432133675,
+            "snap": 1,
+            "type": "star"
+        }
+    ]
 }
