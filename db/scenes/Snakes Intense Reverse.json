@@ -22,7 +22,51 @@
             "threshold": 0.30000001192092896
         }
     },
-    "sequencers": [
+    "sequencers": [{
+            "brightness": 1.0,
+            "color_blend": 0.8500000238418579,
+            "color_increase": 1.4479999542236328,
+            "direction": false,
+            "fade_blend": 0.31700000166893005,
+            "initial_snake_velocity": 8.0,
+            "max_snakes": 20,
+            "mirror": true,
+            "snake_length": 3,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.004000000189989805
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.8500000238418579,
+            "color_increase": 1.4479999542236328,
+            "direction": false,
+            "fade_blend": 0.31700000166893005,
+            "initial_snake_velocity": 8.0,
+            "max_snakes": 20,
+            "mirror": true,
+            "snake_length": 3,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.004000000189989805
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.8500000238418579,
+            "color_increase": 1.4479999542236328,
+            "direction": false,
+            "fade_blend": 0.31700000166893005,
+            "initial_snake_velocity": 8.0,
+            "max_snakes": 20,
+            "mirror": true,
+            "snake_length": 3,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.004000000189989805
+        },
         {
             "brightness": 1.0,
             "color_blend": 0.8500000238418579,

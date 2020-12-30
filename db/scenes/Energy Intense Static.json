@@ -36,6 +36,48 @@
             "palette_modifier": 10.0,
             "static_palette": true,
             "type": "energy"
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.0860000029206276,
+            "color_fade": 0.11100000143051147,
+            "color_threshold": 0.10899999737739563,
+            "envelope": 0.8539999723434448,
+            "intensity_modifier": 43.0,
+            "kernel_side": 16,
+            "kernel_sigma": 15.0,
+            "method": "energy",
+            "palette_modifier": 10.0,
+            "static_palette": true,
+            "type": "energy"
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.0860000029206276,
+            "color_fade": 0.11100000143051147,
+            "color_threshold": 0.10899999737739563,
+            "envelope": 0.8539999723434448,
+            "intensity_modifier": 43.0,
+            "kernel_side": 16,
+            "kernel_sigma": 15.0,
+            "method": "energy",
+            "palette_modifier": 10.0,
+            "static_palette": true,
+            "type": "energy"
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.0860000029206276,
+            "color_fade": 0.11100000143051147,
+            "color_threshold": 0.10899999737739563,
+            "envelope": 0.8539999723434448,
+            "intensity_modifier": 43.0,
+            "kernel_side": 16,
+            "kernel_sigma": 15.0,
+            "method": "energy",
+            "palette_modifier": 10.0,
+            "static_palette": true,
+            "type": "energy"
         }
     ]
 }

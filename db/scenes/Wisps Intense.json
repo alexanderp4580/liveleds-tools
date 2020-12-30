@@ -22,7 +22,57 @@
             "threshold": 0.30000001192092896
         }
     },
-    "sequencers": [
+    "sequencers": [{
+            "brightness": 0.21019473671913147,
+            "color_blend": 0.8870000243186951,
+            "color_increase": 0.004999999888241291,
+            "direction": false,
+            "fade_blend": 0.12300000339746475,
+            "initial_wisp_velocity": 7.918000221252441,
+            "live_color": false,
+            "max_wisps": 58,
+            "mirror": true,
+            "random": false,
+            "trigger_threshold": 0.3050000071525574,
+            "type": "wisps",
+            "velocity_decay": 0.010999999940395355,
+            "velocity_threshold": 0.42500001192092896,
+            "wisp_length": 1
+        },
+        {
+            "brightness": 0.21019473671913147,
+            "color_blend": 0.8870000243186951,
+            "color_increase": 0.004999999888241291,
+            "direction": false,
+            "fade_blend": 0.12300000339746475,
+            "initial_wisp_velocity": 7.918000221252441,
+            "live_color": false,
+            "max_wisps": 58,
+            "mirror": true,
+            "random": false,
+            "trigger_threshold": 0.3050000071525574,
+            "type": "wisps",
+            "velocity_decay": 0.010999999940395355,
+            "velocity_threshold": 0.42500001192092896,
+            "wisp_length": 1
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.8870000243186951,
+            "color_increase": 0.004999999888241291,
+            "direction": false,
+            "fade_blend": 0.12300000339746475,
+            "initial_wisp_velocity": 7.918000221252441,
+            "live_color": false,
+            "max_wisps": 58,
+            "mirror": true,
+            "random": false,
+            "trigger_threshold": 0.3050000071525574,
+            "type": "wisps",
+            "velocity_decay": 0.010999999940395355,
+            "velocity_threshold": 0.42500001192092896,
+            "wisp_length": 1
+        },
         {
             "brightness": 1.0,
             "color_blend": 0.8870000243186951,

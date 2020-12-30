@@ -22,7 +22,51 @@
             "threshold": 0.30000001192092896
         }
     },
-    "sequencers": [
+    "sequencers": [{
+            "bottom_offset": 35,
+            "brightness": 1.0,
+            "color_blend": 0.8740000128746033,
+            "color_fade": 0.16899999976158142,
+            "color_threshold": 0.10000000149011612,
+            "intensity_modifier": 2.2790000438690186,
+            "kernel_side": 2,
+            "kernel_sigma": 0.5669999718666077,
+            "mirror": true,
+            "palette_modifier": 3.058000087738037,
+            "pitch_scale": 1.0130000114440918,
+            "snap": 2,
+            "type": "pitch"
+        },
+        {
+            "bottom_offset": 35,
+            "brightness": 1.0,
+            "color_blend": 0.8740000128746033,
+            "color_fade": 0.16899999976158142,
+            "color_threshold": 0.10000000149011612,
+            "intensity_modifier": 2.2790000438690186,
+            "kernel_side": 2,
+            "kernel_sigma": 0.5669999718666077,
+            "mirror": true,
+            "palette_modifier": 3.058000087738037,
+            "pitch_scale": 1.0130000114440918,
+            "snap": 2,
+            "type": "pitch"
+        },
+        {
+            "bottom_offset": 35,
+            "brightness": 1.0,
+            "color_blend": 0.8740000128746033,
+            "color_fade": 0.16899999976158142,
+            "color_threshold": 0.10000000149011612,
+            "intensity_modifier": 2.2790000438690186,
+            "kernel_side": 2,
+            "kernel_sigma": 0.5669999718666077,
+            "mirror": true,
+            "palette_modifier": 3.058000087738037,
+            "pitch_scale": 1.0130000114440918,
+            "snap": 2,
+            "type": "pitch"
+        },
         {
             "bottom_offset": 35,
             "brightness": 1.0,

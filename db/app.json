@@ -1,17 +1,19 @@
 {
     "active": true,
     "automatic_gain_control": true,
-    "brightness": 1.0,
+    "brightness": 0.9856815338134766,
     "change_palette_after_beats": 0,
     "change_palette_after_seconds": 30,
-    "current_scene": "Snakes Intense Reverse",
-    "palette": "Warm",
+    "current_scene": "Waves Intense",
+    "palette": "Astral Glow",
     "playing_movie_id": 1,
     "selected_palettes": [
         "Astral Glow",
         "Blues",
-        "Party",
-        "Rainbow",
-        "Warm"
+        "Warm",
+        "Abstract",
+        "Glitch",
+        "Neons",
+        "Psych"
     ]
 }
