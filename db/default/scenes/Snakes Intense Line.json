@@ -1,0 +1,86 @@
+{
+    "modules": {
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "method": "default",
+            "min_interval": 104.0,
+            "silence": -20.0,
+            "threshold": 0.06700000166893005
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [{
+            "brightness": 0.023482244461774826,
+            "color_blend": 0.8500000238418579,
+            "color_increase": 1.8300000429153442,
+            "direction": false,
+            "fade_blend": 0.31700000166893005,
+            "initial_snake_velocity": 10.0,
+            "max_snakes": 10,
+            "mirror": false,
+            "snake_length": 6,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.0
+        },
+        {
+            "brightness": 0.023482244461774826,
+            "color_blend": 0.8500000238418579,
+            "color_increase": 1.8300000429153442,
+            "direction": false,
+            "fade_blend": 0.31700000166893005,
+            "initial_snake_velocity": 10.0,
+            "max_snakes": 10,
+            "mirror": false,
+            "snake_length": 6,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.0
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.8500000238418579,
+            "color_increase": 1.8300000429153442,
+            "direction": false,
+            "fade_blend": 0.31700000166893005,
+            "initial_snake_velocity": 10.0,
+            "max_snakes": 10,
+            "mirror": false,
+            "snake_length": 6,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.0
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.8500000238418579,
+            "color_increase": 1.8300000429153442,
+            "direction": false,
+            "fade_blend": 0.31700000166893005,
+            "initial_snake_velocity": 10.0,
+            "max_snakes": 10,
+            "mirror": false,
+            "snake_length": 6,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.0
+        }
+    ]
+}

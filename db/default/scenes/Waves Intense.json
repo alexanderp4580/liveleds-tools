@@ -1,0 +1,70 @@
+{
+    "modules": {
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -20.0,
+            "threshold": 0.30000001192092896
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [{
+            "brightness": 0.9856815338134766,
+            "color_modifier": 0.2290000021457672,
+            "direction": true,
+            "method": "energy",
+            "mirror": true,
+            "palette_modifier": 0.9879999756813049,
+            "power": 1.9989999532699585,
+            "type": "waves",
+            "waviness": 0.23000000417232513
+        },
+        {
+            "brightness": 0.9856815338134766,
+            "color_modifier": 0.2290000021457672,
+            "direction": true,
+            "method": "energy",
+            "mirror": true,
+            "palette_modifier": 0.9879999756813049,
+            "power": 1.9989999532699585,
+            "type": "waves",
+            "waviness": 0.23000000417232513
+        },
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.2290000021457672,
+            "direction": true,
+            "method": "energy",
+            "mirror": true,
+            "palette_modifier": 0.9879999756813049,
+            "power": 1.9989999532699585,
+            "type": "waves",
+            "waviness": 0.23000000417232513
+        },
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.2290000021457672,
+            "direction": true,
+            "method": "energy",
+            "mirror": true,
+            "palette_modifier": 0.9879999756813049,
+            "power": 1.9989999532699585,
+            "type": "waves",
+            "waviness": 0.23000000417232513
+        }
+    ]
+}
