@@ -2,6 +2,8 @@
 
 # Download latest binary and generate md5 file.
 function downloadLatestBinary() {
+    # Resync time
+    systemctl restart systemd-timesyncd
     VERSION_OUTPUT=$(curl https://liveleds.io/version/latest)
     VERSION=$(jq -r '.version' <<<"$VERSION_OUTPUT")
     MD5=$(jq -r '.md5' <<<"$VERSION_OUTPUT")
@@ -53,7 +55,8 @@ echo "Result   ${MD5_RESULT}"
 
 # Compare MD5 sums
 if [[ "$MD5_EXPECTED" != "$MD5_RESULT" ]]; then
-    echo "Failed to match MD5 hashes."
+    echo "Failed to match MD5 hashes. Removing md5 file."
+    rm md5.txt
 fi
 
 # Get source name
