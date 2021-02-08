@@ -32,47 +32,47 @@
     "sequencers": [
         {
             "brightness": 0.9856815338134766,
-            "color_modifier": 0.020999999716877937,
+            "color_modifier": 0.2290000021457672,
             "direction": true,
-            "method": "hfc",
+            "method": "energy",
             "mirror": true,
-            "palette_modifier": 0.7699999809265137,
-            "power": 0.19300000369548798,
+            "palette_modifier": 0.9879999756813049,
+            "power": 1.9989999532699585,
             "type": "waves",
-            "waviness": 0.3959999978542328
+            "waviness": 0.23000000417232513
         },
         {
             "brightness": 0.9856815338134766,
-            "color_modifier": 0.020999999716877937,
+            "color_modifier": 0.2290000021457672,
             "direction": true,
-            "method": "hfc",
+            "method": "energy",
             "mirror": true,
-            "palette_modifier": 0.7699999809265137,
-            "power": 0.19300000369548798,
+            "palette_modifier": 0.9879999756813049,
+            "power": 1.9989999532699585,
             "type": "waves",
-            "waviness": 0.3959999978542328
+            "waviness": 0.23000000417232513
         },
         {
             "brightness": 0.9856815338134766,
-            "color_modifier": 0.020999999716877937,
+            "color_modifier": 0.2290000021457672,
             "direction": true,
-            "method": "hfc",
+            "method": "energy",
             "mirror": true,
-            "palette_modifier": 0.7699999809265137,
-            "power": 0.19300000369548798,
+            "palette_modifier": 0.9879999756813049,
+            "power": 1.9989999532699585,
             "type": "waves",
-            "waviness": 0.3959999978542328
+            "waviness": 0.23000000417232513
         },
         {
-            "brightness": 0.9856815338134766,
-            "color_modifier": 0.020999999716877937,
+            "brightness": 1.0,
+            "color_modifier": 0.2290000021457672,
             "direction": true,
-            "method": "hfc",
+            "method": "energy",
             "mirror": true,
-            "palette_modifier": 0.7699999809265137,
-            "power": 0.19300000369548798,
+            "palette_modifier": 0.9879999756813049,
+            "power": 1.9989999532699585,
             "type": "waves",
-            "waviness": 0.3959999978542328
+            "waviness": 0.23000000417232513
         }
     ]
 }

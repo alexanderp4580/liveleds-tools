@@ -41,7 +41,7 @@
             "kernel_sigma": 9.0,
             "method": "energy",
             "palette_modifier": 1.5729999542236328,
-            "static_palette": false,
+            "static_palette": true,
             "type": "energy"
         },
         {

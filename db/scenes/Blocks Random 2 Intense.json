@@ -15,9 +15,9 @@
         },
         "onset": {
             "method": "default",
-            "min_interval": 173.83900451660156,
+            "min_interval": 59.0,
             "silence": -28.0,
-            "threshold": 0.20499999821186066
+            "threshold": 0.13500000536441803
         },
         "pitch": {
             "method": "default"
@@ -32,34 +32,34 @@
     "sequencers": [
         {
             "brightness": 0.9856815338134766,
-            "color_increase": 0.2879999876022339,
-            "fade_blend": 0.05299999937415123,
-            "length": 25,
-            "randomize": true,
+            "color_increase": 0.1120000034570694,
+            "fade_blend": 0.03099999949336052,
+            "length": 15,
+            "randomize": false,
             "type": "blocks"
         },
         {
             "brightness": 0.9856815338134766,
-            "color_increase": 0.2879999876022339,
-            "fade_blend": 0.05299999937415123,
-            "length": 25,
-            "randomize": true,
+            "color_increase": 0.1120000034570694,
+            "fade_blend": 0.03099999949336052,
+            "length": 15,
+            "randomize": false,
             "type": "blocks"
         },
         {
             "brightness": 0.9856815338134766,
-            "color_increase": 0.2879999876022339,
-            "fade_blend": 0.05299999937415123,
-            "length": 25,
-            "randomize": true,
+            "color_increase": 0.1120000034570694,
+            "fade_blend": 0.03099999949336052,
+            "length": 15,
+            "randomize": false,
             "type": "blocks"
         },
         {
             "brightness": 0.9856815338134766,
-            "color_increase": 0.2879999876022339,
-            "fade_blend": 0.05299999937415123,
-            "length": 25,
-            "randomize": true,
+            "color_increase": 0.1120000034570694,
+            "fade_blend": 0.03099999949336052,
+            "length": 15,
+            "randomize": false,
             "type": "blocks"
         }
     ]

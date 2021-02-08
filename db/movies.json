@@ -63,5 +63,34 @@
                 "scene": "Pitch Intense Mirror"
             }
         ]
+    },
+    {
+        "name": "Intense 2",
+        "playlist": [
+            {
+                "duration": 25,
+                "scene": "Wisps Intense Reversed"
+            },
+            {
+                "duration": 45,
+                "scene": "Blocks Intense"
+            },
+            {
+                "duration": 30,
+                "scene": "Waves Intense 2"
+            },
+            {
+                "duration": 40,
+                "scene": "Blocks Random 2 Intense"
+            },
+            {
+                "duration": 50,
+                "scene": "Blocks Intense Random"
+            },
+            {
+                "duration": 40,
+                "scene": "Star Intense Two"
+            }
+        ]
     }
 ]

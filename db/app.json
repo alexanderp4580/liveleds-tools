@@ -1,12 +1,14 @@
 {
     "active": true,
     "automatic_gain_control": true,
-    "brightness": 0.9856815338134766,
+    "brightness": 1.0,
     "change_palette_after_beats": 0,
     "change_palette_after_seconds": 30,
-    "current_scene": "Waves Intense",
+    "current_scene": "Blocks Intense",
+    "gain": 63,
+    "logs_enabled": false,
     "palette": "Astral Glow",
-    "playing_movie_id": 1,
+    "playing_movie_id": 2,
     "selected_palettes": [
         "Astral Glow",
         "Blues",
@@ -14,6 +16,7 @@
         "Abstract",
         "Glitch",
         "Neons",
-        "Psych"
+        "Psych",
+        "Rainbow"
     ]
 }
