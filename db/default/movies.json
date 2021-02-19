@@ -1,1 +1,96 @@
-[]
+[
+    {
+        "name": "All Intense",
+        "playlist": [
+            {
+                "duration": 25,
+                "scene": "Snakes Intense Line"
+            },
+            {
+                "duration": 15,
+                "scene": "Energy Intense"
+            },
+            {
+                "duration": 20,
+                "scene": "Waves Intense"
+            },
+            {
+                "duration": 15,
+                "scene": "Snakes Intense"
+            },
+            {
+                "duration": 10,
+                "scene": "Snakes Intense Reverse"
+            },
+            {
+                "duration": 15,
+                "scene": "Wisps Intense Random"
+            },
+            {
+                "duration": 15,
+                "scene": "Pitch Intense"
+            },
+            {
+                "duration": 15,
+                "scene": "Wisps Intense Reversed"
+            },
+            {
+                "duration": 15,
+                "scene": "Star Intense"
+            },
+            {
+                "duration": 10,
+                "scene": "Blocks Intense Random"
+            },
+            {
+                "duration": 10,
+                "scene": "Blocks Intense"
+            },
+            {
+                "duration": 10,
+                "scene": "Star Intense Two"
+            },
+            {
+                "duration": 20,
+                "scene": "Wisps Intense"
+            },
+            {
+                "duration": 10,
+                "scene": "Energy Intense Static"
+            },
+            {
+                "duration": 25,
+                "scene": "Pitch Intense Mirror"
+            }
+        ]
+    },
+    {
+        "name": "Intense 2",
+        "playlist": [
+            {
+                "duration": 25,
+                "scene": "Wisps Intense Reversed"
+            },
+            {
+                "duration": 45,
+                "scene": "Blocks Intense"
+            },
+            {
+                "duration": 30,
+                "scene": "Waves Intense 2"
+            },
+            {
+                "duration": 40,
+                "scene": "Blocks Random 2 Intense"
+            },
+            {
+                "duration": 50,
+                "scene": "Blocks Intense Random"
+            },
+            {
+                "duration": 40,
+                "scene": "Star Intense Two"
+            }
+        ]
+    }
+]

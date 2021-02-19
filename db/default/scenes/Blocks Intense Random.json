@@ -1,5 +1,12 @@
 {
     "modules": {
+        "filter": {
+            "active": false,
+            "frequency_center": 200.0,
+            "gain": 0.0,
+            "q_intensity": 0.30000001192092896,
+            "type": "low_pass"
+        },
         "filter_bank": {
             "filters": 100,
             "high_freq": 10000.0,
@@ -24,7 +31,7 @@
     },
     "sequencers": [
         {
-            "brightness": 1.0,
+            "brightness": 0.9856815338134766,
             "color_increase": 1.003999948501587,
             "fade_blend": 0.09600000083446503,
             "length": 15,
@@ -32,7 +39,7 @@
             "type": "blocks"
         },
         {
-            "brightness": 1.0,
+            "brightness": 0.9856815338134766,
             "color_increase": 1.003999948501587,
             "fade_blend": 0.09600000083446503,
             "length": 15,
@@ -40,7 +47,7 @@
             "type": "blocks"
         },
         {
-            "brightness": 1.0,
+            "brightness": 0.9856815338134766,
             "color_increase": 1.003999948501587,
             "fade_blend": 0.09600000083446503,
             "length": 15,

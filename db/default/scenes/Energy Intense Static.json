@@ -1,5 +1,12 @@
 {
     "modules": {
+        "filter": {
+            "active": false,
+            "frequency_center": 200.0,
+            "gain": 0.0,
+            "q_intensity": 0.30000001192092896,
+            "type": "low_pass"
+        },
         "filter_bank": {
             "filters": 100,
             "high_freq": 10000.0,
@@ -24,7 +31,7 @@
     },
     "sequencers": [
         {
-            "brightness": 1.0,
+            "brightness": 0.9856815338134766,
             "color_blend": 0.0860000029206276,
             "color_fade": 0.11100000143051147,
             "color_threshold": 0.10899999737739563,
@@ -38,7 +45,7 @@
             "type": "energy"
         },
         {
-            "brightness": 1.0,
+            "brightness": 0.9856815338134766,
             "color_blend": 0.0860000029206276,
             "color_fade": 0.11100000143051147,
             "color_threshold": 0.10899999737739563,
@@ -52,7 +59,7 @@
             "type": "energy"
         },
         {
-            "brightness": 1.0,
+            "brightness": 0.9856815338134766,
             "color_blend": 0.0860000029206276,
             "color_fade": 0.11100000143051147,
             "color_threshold": 0.10899999737739563,

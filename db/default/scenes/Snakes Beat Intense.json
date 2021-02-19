@@ -41,7 +41,7 @@
             "max_snakes": 22,
             "mirror": false,
             "snake_length": 4,
-            "trigger": "beat",
+            "trigger": "onset",
             "type": "snakes",
             "velocity_decay": 0.0,
             "velocity_threshold": 0.0
