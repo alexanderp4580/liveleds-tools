@@ -2,15 +2,21 @@
     "active": true,
     "automatic_gain_control": true,
     "brightness": 1.0,
-    "change_palette_after_beats": 0,
-    "change_palette_after_seconds": 30,
-    "current_scene": "Snakes 1",
-    "gain": 63,
-    "logs_enabled": true,
-    "palette": "Neons",
+    "change_palette_after_beats": 16,
+    "change_palette_after_seconds": 45,
+    "current_scene": "Waves 2",
+    "gain": 75,
+    "logs_enabled": false,
+    "palette": "Abstract",
     "playing_movie_id": 0,
     "selected_palettes": [
+        "Abstract",
+        "Astral Glow",
+        "Blues",
+        "Glitch",
         "Neons",
-        "Neons"
+        "Party",
+        "Psych",
+        "Warm"
     ]
 }

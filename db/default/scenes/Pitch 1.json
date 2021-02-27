@@ -1,0 +1,94 @@
+{
+    "modules": {
+        "filter": {
+            "active": false,
+            "frequency_center": 200.0,
+            "gain": 0.0,
+            "q_intensity": 0.30000001192092896,
+            "type": "low_pass"
+        },
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -20.0,
+            "threshold": 0.30000001192092896
+        },
+        "pitch": {
+            "method": "mcomb"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [
+        {
+            "bottom_offset": 25,
+            "brightness": 1.0,
+            "color_blend": 0.14000000059604645,
+            "color_fade": 0.15000000596046448,
+            "color_threshold": 0.0,
+            "intensity_modifier": 5.455999851226807,
+            "kernel_side": 4,
+            "kernel_sigma": 0.24500000476837158,
+            "mirror": true,
+            "palette_modifier": 4.0,
+            "pitch_scale": 0.9959999918937683,
+            "snap": 1,
+            "type": "pitch"
+        },
+        {
+            "bottom_offset": 25,
+            "brightness": 1.0,
+            "color_blend": 0.14000000059604645,
+            "color_fade": 0.15000000596046448,
+            "color_threshold": 0.0,
+            "intensity_modifier": 5.455999851226807,
+            "kernel_side": 4,
+            "kernel_sigma": 0.24500000476837158,
+            "mirror": true,
+            "palette_modifier": 4.0,
+            "pitch_scale": 0.9959999918937683,
+            "snap": 1,
+            "type": "pitch"
+        },
+        {
+            "bottom_offset": 25,
+            "brightness": 1.0,
+            "color_blend": 0.14000000059604645,
+            "color_fade": 0.15000000596046448,
+            "color_threshold": 0.0,
+            "intensity_modifier": 5.455999851226807,
+            "kernel_side": 4,
+            "kernel_sigma": 0.24500000476837158,
+            "mirror": true,
+            "palette_modifier": 4.0,
+            "pitch_scale": 0.9959999918937683,
+            "snap": 1,
+            "type": "pitch"
+        },
+        {
+            "bottom_offset": 25,
+            "brightness": 1.0,
+            "color_blend": 0.14000000059604645,
+            "color_fade": 0.15000000596046448,
+            "color_threshold": 0.0,
+            "intensity_modifier": 5.455999851226807,
+            "kernel_side": 4,
+            "kernel_sigma": 0.24500000476837158,
+            "mirror": true,
+            "palette_modifier": 4.0,
+            "pitch_scale": 0.9959999918937683,
+            "snap": 1,
+            "type": "pitch"
+        }
+    ]
+}

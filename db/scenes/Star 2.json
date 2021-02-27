@@ -1,0 +1,90 @@
+{
+    "modules": {
+        "filter": {
+            "active": false,
+            "frequency_center": 200.0,
+            "gain": 0.0,
+            "q_intensity": 0.30000001192092896,
+            "type": "low_pass"
+        },
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -20.0,
+            "threshold": 0.30000001192092896
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [
+        {
+            "brightness": 1.0,
+            "color_blend": 0.4000000059604645,
+            "color_fade": 0.09000000357627869,
+            "color_threshold": 0.0,
+            "envelope": 0.5170000195503235,
+            "intensity_modifier": 3.5,
+            "kernel_side": 2,
+            "kernel_sigma": 29.759000778198242,
+            "min_level": 0.004999999888241291,
+            "palette_modifier": 0.029999999329447746,
+            "snap": 1,
+            "type": "star"
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.4000000059604645,
+            "color_fade": 0.09000000357627869,
+            "color_threshold": 0.0,
+            "envelope": 0.5170000195503235,
+            "intensity_modifier": 3.5,
+            "kernel_side": 2,
+            "kernel_sigma": 29.759000778198242,
+            "min_level": 0.004999999888241291,
+            "palette_modifier": 0.029999999329447746,
+            "snap": 1,
+            "type": "star"
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.4000000059604645,
+            "color_fade": 0.09000000357627869,
+            "color_threshold": 0.0,
+            "envelope": 0.5170000195503235,
+            "intensity_modifier": 3.5,
+            "kernel_side": 2,
+            "kernel_sigma": 29.759000778198242,
+            "min_level": 0.004999999888241291,
+            "palette_modifier": 0.029999999329447746,
+            "snap": 1,
+            "type": "star"
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.4000000059604645,
+            "color_fade": 0.09000000357627869,
+            "color_threshold": 0.0,
+            "envelope": 0.5170000195503235,
+            "intensity_modifier": 3.5,
+            "kernel_side": 2,
+            "kernel_sigma": 29.759000778198242,
+            "min_level": 0.004999999888241291,
+            "palette_modifier": 0.029999999329447746,
+            "snap": 1,
+            "type": "star"
+        }
+    ]
+}

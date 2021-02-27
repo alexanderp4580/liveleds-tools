@@ -1,95 +1,138 @@
 [
     {
-        "name": "All Intense",
+        "name": "One",
         "playlist": [
             {
-                "duration": 25,
-                "scene": "Snakes Intense Line"
-            },
-            {
-                "duration": 15,
-                "scene": "Energy Intense"
-            },
-            {
                 "duration": 20,
-                "scene": "Waves Intense"
+                "scene": "Blocks 1"
             },
             {
-                "duration": 15,
-                "scene": "Snakes Intense"
+                "duration": 30,
+                "scene": "Star 1"
             },
             {
-                "duration": 10,
-                "scene": "Snakes Intense Reverse"
+                "duration": 100,
+                "scene": "Wisps 1"
             },
             {
-                "duration": 15,
-                "scene": "Wisps Intense Random"
+                "duration": 100,
+                "scene": "Pitch 1"
             },
             {
-                "duration": 15,
-                "scene": "Pitch Intense"
+                "duration": 100,
+                "scene": "Waves 1"
             },
             {
-                "duration": 15,
-                "scene": "Wisps Intense Reversed"
-            },
-            {
-                "duration": 15,
-                "scene": "Star Intense"
+                "duration": 100,
+                "scene": "Snakes 1"
             },
             {
                 "duration": 10,
-                "scene": "Blocks Intense Random"
+                "scene": "Energy 1"
             },
             {
-                "duration": 10,
-                "scene": "Blocks Intense"
-            },
-            {
-                "duration": 10,
-                "scene": "Star Intense Two"
-            },
-            {
-                "duration": 20,
-                "scene": "Wisps Intense"
-            },
-            {
-                "duration": 10,
-                "scene": "Energy Intense Static"
-            },
-            {
-                "duration": 25,
-                "scene": "Pitch Intense Mirror"
+                "duration": 100,
+                "scene": "Filterbank 1"
             }
         ]
     },
     {
-        "name": "Intense 2",
+        "name": "Two",
         "playlist": [
             {
-                "duration": 25,
-                "scene": "Wisps Intense Reversed"
+                "duration": 100,
+                "scene": "Snakes 2"
             },
             {
-                "duration": 45,
-                "scene": "Blocks Intense"
+                "duration": 100,
+                "scene": "Waves 2"
             },
             {
-                "duration": 30,
-                "scene": "Waves Intense 2"
+                "duration": 100,
+                "scene": "Energy 2"
             },
             {
-                "duration": 40,
-                "scene": "Blocks Random 2 Intense"
+                "duration": 100,
+                "scene": "Filterbank 2"
             },
             {
-                "duration": 50,
-                "scene": "Blocks Intense Random"
+                "duration": 100,
+                "scene": "Wisps 2"
             },
             {
-                "duration": 40,
-                "scene": "Star Intense Two"
+                "duration": 100,
+                "scene": "Pitch 2"
+            },
+            {
+                "duration": 100,
+                "scene": "Star 2"
+            }
+        ]
+    },
+    {
+        "name": "Three",
+        "playlist": [
+            {
+                "duration": 100,
+                "scene": "Blocks 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Energy 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Snakes 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Pitch 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Waves 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Star 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Wisps 3"
+            }
+        ]
+    },
+    {
+        "name": "Four",
+        "playlist": [
+            {
+                "duration": 100,
+                "scene": "Pitch 4"
+            },
+            {
+                "duration": 100,
+                "scene": "Energy 4"
+            },
+            {
+                "duration": 100,
+                "scene": "Blocks 4"
+            }
+        ]
+    },
+    {
+        "name": "Rest",
+        "playlist": [
+            {
+                "duration": 100,
+                "scene": "Wisps 6"
+            },
+            {
+                "duration": 100,
+                "scene": "Wisps 5"
+            },
+            {
+                "duration": 100,
+                "scene": "Snakes 5"
             }
         ]
     }

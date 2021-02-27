@@ -1,0 +1,70 @@
+{
+    "modules": {
+        "filter": {
+            "active": false,
+            "frequency_center": 200.0,
+            "gain": 0.0,
+            "q_intensity": 0.30000001192092896,
+            "type": "low_pass"
+        },
+        "filter_bank": {
+            "filters": 75,
+            "high_freq": 14873.876953125,
+            "low_freq": 59.71799850463867,
+            "power": 4.177999973297119
+        },
+        "onset": {
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -20.0,
+            "threshold": 0.30000001192092896
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [
+        {
+            "blend_down": 0.10599999874830246,
+            "blend_up": 0.06199999898672104,
+            "brightness": 1.0,
+            "color_increase": 1.6230000257492065,
+            "power": 1.100000023841858,
+            "threshold": 0.014999999664723873,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.10599999874830246,
+            "blend_up": 0.06199999898672104,
+            "brightness": 0.15000000596046448,
+            "color_increase": 1.6230000257492065,
+            "power": 1.100000023841858,
+            "threshold": 0.014999999664723873,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.10599999874830246,
+            "blend_up": 0.06199999898672104,
+            "brightness": 0.15000000596046448,
+            "color_increase": 1.6230000257492065,
+            "power": 1.100000023841858,
+            "threshold": 0.014999999664723873,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.10599999874830246,
+            "blend_up": 0.06199999898672104,
+            "brightness": 0.15000000596046448,
+            "color_increase": 1.6230000257492065,
+            "power": 1.100000023841858,
+            "threshold": 0.014999999664723873,
+            "type": "filter_bank"
+        }
+    ]
+}

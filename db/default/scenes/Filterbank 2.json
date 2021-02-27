@@ -1,0 +1,70 @@
+{
+    "modules": {
+        "filter": {
+            "active": false,
+            "frequency_center": 200.0,
+            "gain": 0.0,
+            "q_intensity": 0.30000001192092896,
+            "type": "low_pass"
+        },
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 4424.29296875,
+            "low_freq": 1.0,
+            "power": 1.6080000400543213
+        },
+        "onset": {
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -20.0,
+            "threshold": 0.30000001192092896
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [
+        {
+            "blend_down": 0.12300000339746475,
+            "blend_up": 0.30399999022483826,
+            "brightness": 1.0,
+            "color_increase": 1.0609999895095825,
+            "power": 0.8560000061988831,
+            "threshold": 0.4869999885559082,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.12300000339746475,
+            "blend_up": 0.30399999022483826,
+            "brightness": 1.0,
+            "color_increase": 1.0609999895095825,
+            "power": 0.8560000061988831,
+            "threshold": 0.4869999885559082,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.12300000339746475,
+            "blend_up": 0.30399999022483826,
+            "brightness": 1.0,
+            "color_increase": 1.0609999895095825,
+            "power": 0.8560000061988831,
+            "threshold": 0.4869999885559082,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.12300000339746475,
+            "blend_up": 0.30399999022483826,
+            "brightness": 1.0,
+            "color_increase": 1.0609999895095825,
+            "power": 0.8560000061988831,
+            "threshold": 0.4869999885559082,
+            "type": "filter_bank"
+        }
+    ]
+}
