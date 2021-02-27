@@ -4,19 +4,13 @@
     "brightness": 1.0,
     "change_palette_after_beats": 0,
     "change_palette_after_seconds": 30,
-    "current_scene": "Blocks Intense",
+    "current_scene": "Snakes 1",
     "gain": 63,
-    "logs_enabled": false,
-    "palette": "Astral Glow",
-    "playing_movie_id": 2,
+    "logs_enabled": true,
+    "palette": "Neons",
+    "playing_movie_id": 0,
     "selected_palettes": [
-        "Astral Glow",
-        "Blues",
-        "Warm",
-        "Abstract",
-        "Glitch",
         "Neons",
-        "Psych",
-        "Rainbow"
+        "Neons"
     ]
 }
