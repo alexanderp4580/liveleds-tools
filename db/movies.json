@@ -135,5 +135,134 @@
                 "scene": "Snakes 5"
             }
         ]
+    },
+    {
+        "name": "All",
+        "playlist": [
+            {
+                "duration": 180,
+                "scene": "Waves 2"
+            },
+            {
+                "duration": 100,
+                "scene": "Wisps 4"
+            },
+            {
+                "duration": 100,
+                "scene": "Energy 1"
+            },
+            {
+                "duration": 100,
+                "scene": "Blocks 1"
+            },
+            {
+                "duration": 100,
+                "scene": "Snakes 2"
+            },
+            {
+                "duration": 100,
+                "scene": "Blocks 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Star 1"
+            },
+            {
+                "duration": 100,
+                "scene": "Energy 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Wisps 6"
+            },
+            {
+                "duration": 100,
+                "scene": "Snakes 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Wisps 1"
+            },
+            {
+                "duration": 100,
+                "scene": "Pitch 1"
+            },
+            {
+                "duration": 100,
+                "scene": "Pitch 4"
+            },
+            {
+                "duration": 100,
+                "scene": "Wisps 5"
+            },
+            {
+                "duration": 100,
+                "scene": "Pitch 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Energy 2"
+            },
+            {
+                "duration": 100,
+                "scene": "Waves 1"
+            },
+            {
+                "duration": 100,
+                "scene": "Waves 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Energy 4"
+            },
+            {
+                "duration": 100,
+                "scene": "Filterbank 2"
+            },
+            {
+                "duration": 100,
+                "scene": "Snakes 5"
+            },
+            {
+                "duration": 100,
+                "scene": "Blocks 4"
+            },
+            {
+                "duration": 100,
+                "scene": "Snakes 4"
+            },
+            {
+                "duration": 100,
+                "scene": "Wisps 2"
+            },
+            {
+                "duration": 100,
+                "scene": "Snakes 1"
+            },
+            {
+                "duration": 100,
+                "scene": "Star 3"
+            },
+            {
+                "duration": 100,
+                "scene": "Blocks 2"
+            },
+            {
+                "duration": 100,
+                "scene": "Pitch 2"
+            },
+            {
+                "duration": 100,
+                "scene": "Star 2"
+            },
+            {
+                "duration": 100,
+                "scene": "Filterbank 1"
+            },
+            {
+                "duration": 100,
+                "scene": "Wisps 3"
+            }
+        ]
     }
 ]
