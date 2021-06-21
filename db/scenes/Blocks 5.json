@@ -20,10 +20,10 @@
             "power": 1.2999999523162842
         },
         "onset": {
-            "method": "default",
-            "min_interval": 1.0,
-            "silence": -22.0,
-            "threshold": -0.15000000596046448
+            "method": "energy",
+            "min_interval": 237.0,
+            "silence": -17.0,
+            "threshold": 0.7900000214576721
         },
         "pitch": {
             "method": "default"
@@ -38,34 +38,34 @@
     "sequencers": [
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.12099999934434891,
-            "length": 5,
-            "randomize": true,
+            "color_increase": 0.953000009059906,
+            "fade_blend": 0.08799999952316284,
+            "length": 25,
+            "randomize": false,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.12099999934434891,
-            "length": 5,
-            "randomize": true,
+            "color_increase": 0.953000009059906,
+            "fade_blend": 0.08799999952316284,
+            "length": 25,
+            "randomize": false,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.12099999934434891,
-            "length": 5,
-            "randomize": true,
+            "color_increase": 0.953000009059906,
+            "fade_blend": 0.08799999952316284,
+            "length": 25,
+            "randomize": false,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.12099999934434891,
-            "length": 5,
-            "randomize": true,
+            "color_increase": 0.953000009059906,
+            "fade_blend": 0.08799999952316284,
+            "length": 25,
+            "randomize": false,
             "type": "blocks"
         }
     ]
