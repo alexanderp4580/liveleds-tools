@@ -29,10 +29,10 @@
             "method": "default"
         },
         "tempo": {
-            "beat_threshold": -22.253999710083008,
-            "silence": -21.68199920654297,
-            "skewness_threshold": 10.0,
-            "threshold": 0.11500000208616257
+            "beat_threshold": -23.39699935913086,
+            "silence": -19.965999603271484,
+            "skewness_threshold": 5.127999782562256,
+            "threshold": 0.004999999888241291
         }
     },
     "sequencers": [
@@ -41,64 +41,16 @@
             "color_blend": 0.6949999928474426,
             "color_increase": 0.2590000033378601,
             "direction": true,
-            "energy_velocity": true,
-            "fade_blend": 0.052000001072883606,
-            "initial_snake_velocity": 2.927999973297119,
+            "energy_velocity": false,
+            "fade_blend": 0.18000000715255737,
+            "initial_snake_velocity": 2.6419999599456787,
             "max_snakes": 5,
             "mirror": true,
-            "snake_length": 1,
+            "snake_length": 12,
             "trigger": "beat",
             "type": "snakes",
             "velocity_decay": 0.0,
-            "velocity_threshold": 0.05900000035762787
-        },
-        {
-            "brightness": 1.0,
-            "color_blend": 0.6949999928474426,
-            "color_increase": 0.2590000033378601,
-            "direction": true,
-            "energy_velocity": true,
-            "fade_blend": 0.052000001072883606,
-            "initial_snake_velocity": 2.927999973297119,
-            "max_snakes": 5,
-            "mirror": true,
-            "snake_length": 1,
-            "trigger": "beat",
-            "type": "snakes",
-            "velocity_decay": 0.0,
-            "velocity_threshold": 0.05900000035762787
-        },
-        {
-            "brightness": 1.0,
-            "color_blend": 0.6949999928474426,
-            "color_increase": 0.2590000033378601,
-            "direction": true,
-            "energy_velocity": true,
-            "fade_blend": 0.052000001072883606,
-            "initial_snake_velocity": 2.927999973297119,
-            "max_snakes": 5,
-            "mirror": true,
-            "snake_length": 1,
-            "trigger": "beat",
-            "type": "snakes",
-            "velocity_decay": 0.0,
-            "velocity_threshold": 0.05900000035762787
-        },
-        {
-            "brightness": 1.0,
-            "color_blend": 0.6949999928474426,
-            "color_increase": 0.2590000033378601,
-            "direction": true,
-            "energy_velocity": true,
-            "fade_blend": 0.052000001072883606,
-            "initial_snake_velocity": 2.927999973297119,
-            "max_snakes": 5,
-            "mirror": true,
-            "snake_length": 1,
-            "trigger": "beat",
-            "type": "snakes",
-            "velocity_decay": 0.0,
-            "velocity_threshold": 0.05900000035762787
+            "velocity_threshold": 0.02800000086426735
         }
     ]
 }

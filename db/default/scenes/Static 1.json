@@ -37,19 +37,9 @@
     },
     "sequencers": [
         {
-            "bottom_offset": 15,
+            "animation_speed": 0.05900000035762787,
             "brightness": 1.0,
-            "color_blend": 0.14000000059604645,
-            "color_fade": 0.3070000112056732,
-            "color_threshold": 0.0,
-            "intensity_modifier": 4.239999771118164,
-            "kernel_side": 2,
-            "kernel_sigma": 0.3479999899864197,
-            "mirror": true,
-            "palette_modifier": 3.999000072479248,
-            "pitch_scale": 0.9959999918937683,
-            "snap": 1,
-            "type": "pitch"
+            "type": "static"
         }
     ]
 }

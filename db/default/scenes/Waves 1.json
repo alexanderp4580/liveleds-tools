@@ -1,5 +1,11 @@
 {
     "modules": {
+        "band_peak": {
+            "bass_threshold": 180.0,
+            "mid_threshold": 300.0,
+            "timeout": 300,
+            "treble_threshold": 200.0
+        },
         "filter": {
             "active": false,
             "frequency_center": 200.0,
@@ -30,39 +36,6 @@
         }
     },
     "sequencers": [
-        {
-            "brightness": 1.0,
-            "color_modifier": 0.3109999895095825,
-            "direction": true,
-            "method": "energy",
-            "mirror": true,
-            "palette_modifier": 0.3440000116825104,
-            "power": 1.8769999742507935,
-            "type": "waves",
-            "waviness": 0.34200000762939453
-        },
-        {
-            "brightness": 1.0,
-            "color_modifier": 0.3109999895095825,
-            "direction": true,
-            "method": "energy",
-            "mirror": true,
-            "palette_modifier": 0.3440000116825104,
-            "power": 1.8769999742507935,
-            "type": "waves",
-            "waviness": 0.34200000762939453
-        },
-        {
-            "brightness": 1.0,
-            "color_modifier": 0.3109999895095825,
-            "direction": true,
-            "method": "energy",
-            "mirror": true,
-            "palette_modifier": 0.3440000116825104,
-            "power": 1.8769999742507935,
-            "type": "waves",
-            "waviness": 0.34200000762939453
-        },
         {
             "brightness": 1.0,
             "color_modifier": 0.3109999895095825,

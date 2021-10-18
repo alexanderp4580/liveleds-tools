@@ -20,8 +20,8 @@
             "power": 1.2999999523162842
         },
         "onset": {
-            "method": "default",
-            "min_interval": 162.0,
+            "method": "mkl",
+            "min_interval": 150.6490020751953,
             "silence": -22.0,
             "threshold": -0.17100000381469727
         },
@@ -38,33 +38,9 @@
     "sequencers": [
         {
             "brightness": 1.0,
-            "color_increase": 0.39100000262260437,
-            "fade_blend": 0.05700000002980232,
-            "length": 5,
-            "randomize": false,
-            "type": "blocks"
-        },
-        {
-            "brightness": 1.0,
-            "color_increase": 0.39100000262260437,
-            "fade_blend": 0.05700000002980232,
-            "length": 5,
-            "randomize": false,
-            "type": "blocks"
-        },
-        {
-            "brightness": 1.0,
-            "color_increase": 0.39100000262260437,
-            "fade_blend": 0.05700000002980232,
-            "length": 5,
-            "randomize": false,
-            "type": "blocks"
-        },
-        {
-            "brightness": 1.0,
-            "color_increase": 0.39100000262260437,
-            "fade_blend": 0.05700000002980232,
-            "length": 5,
+            "color_increase": 0.6620000004768372,
+            "fade_blend": 0.019999999552965164,
+            "length": 8,
             "randomize": false,
             "type": "blocks"
         }

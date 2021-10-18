@@ -1,9 +1,9 @@
 [
     {
         "active": true,
-        "leds": 75,
+        "leds": 84,
         "output": {
-            "ip": "10.41.0.111",
+            "ip": "10.41.0.139",
             "port": 21324,
             "type": "WLED"
         },

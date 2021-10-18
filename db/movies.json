@@ -289,56 +289,60 @@
         "name": "Favorites",
         "playlist": [
             {
-                "duration": 100,
+                "duration": 40,
                 "scene": "Waves 1"
             },
             {
-                "duration": 100,
+                "duration": 30,
                 "scene": "Star 1"
             },
             {
-                "duration": 100,
+                "duration": 20,
                 "scene": "Filterbank 3"
             },
             {
-                "duration": 100,
+                "duration": 10,
                 "scene": "Energy 1"
             },
             {
-                "duration": 100,
+                "duration": 10,
                 "scene": "Blocks 5"
             },
             {
-                "duration": 100,
+                "duration": 25,
                 "scene": "Energy 6"
             },
             {
-                "duration": 100,
+                "duration": 30,
                 "scene": "Pitch 3"
             },
             {
-                "duration": 100,
+                "duration": 20,
                 "scene": "Snakes 3"
             },
             {
-                "duration": 100,
+                "duration": 30,
                 "scene": "Snakes Bass"
             },
             {
-                "duration": 100,
+                "duration": 40,
                 "scene": "Wisps 5"
             },
             {
-                "duration": 100,
+                "duration": 40,
                 "scene": "Snakes High"
             },
             {
-                "duration": 100,
+                "duration": 45,
                 "scene": "Wisps 6"
             },
             {
-                "duration": 100,
+                "duration": 15,
                 "scene": "Snakes Mid"
+            },
+            {
+                "duration": 30,
+                "scene": "Wisps 1"
             }
         ]
     }

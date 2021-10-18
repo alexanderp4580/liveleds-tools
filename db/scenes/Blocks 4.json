@@ -20,10 +20,10 @@
             "power": 1.2999999523162842
         },
         "onset": {
-            "method": "default",
+            "method": "mkl",
             "min_interval": 1.0,
             "silence": -22.0,
-            "threshold": -0.15000000596046448
+            "threshold": -0.0860000029206276
         },
         "pitch": {
             "method": "default"
@@ -39,32 +39,8 @@
         {
             "brightness": 1.0,
             "color_increase": 1.0750000476837158,
-            "fade_blend": 0.12099999934434891,
-            "length": 5,
-            "randomize": true,
-            "type": "blocks"
-        },
-        {
-            "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.12099999934434891,
-            "length": 5,
-            "randomize": true,
-            "type": "blocks"
-        },
-        {
-            "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.12099999934434891,
-            "length": 5,
-            "randomize": true,
-            "type": "blocks"
-        },
-        {
-            "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.12099999934434891,
-            "length": 5,
+            "fade_blend": 0.019999999552965164,
+            "length": 1,
             "randomize": true,
             "type": "blocks"
         }

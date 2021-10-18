@@ -44,33 +44,6 @@
             "power": 0.8560000061988831,
             "threshold": 0.4869999885559082,
             "type": "filter_bank"
-        },
-        {
-            "blend_down": 0.12300000339746475,
-            "blend_up": 0.30399999022483826,
-            "brightness": 1.0,
-            "color_increase": 1.0609999895095825,
-            "power": 0.8560000061988831,
-            "threshold": 0.4869999885559082,
-            "type": "filter_bank"
-        },
-        {
-            "blend_down": 0.12300000339746475,
-            "blend_up": 0.30399999022483826,
-            "brightness": 1.0,
-            "color_increase": 1.0609999895095825,
-            "power": 0.8560000061988831,
-            "threshold": 0.4869999885559082,
-            "type": "filter_bank"
-        },
-        {
-            "blend_down": 0.12300000339746475,
-            "blend_up": 0.30399999022483826,
-            "brightness": 1.0,
-            "color_increase": 1.0609999895095825,
-            "power": 0.8560000061988831,
-            "threshold": 0.4869999885559082,
-            "type": "filter_bank"
         }
     ]
 }

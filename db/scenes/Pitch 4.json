@@ -50,51 +50,6 @@
             "pitch_scale": 0.8510000109672546,
             "snap": 5,
             "type": "pitch"
-        },
-        {
-            "bottom_offset": 12,
-            "brightness": 1.0,
-            "color_blend": 0.699999988079071,
-            "color_fade": 0.14000000059604645,
-            "color_threshold": 0.0,
-            "intensity_modifier": 8.300000190734863,
-            "kernel_side": 3,
-            "kernel_sigma": 0.8500000238418579,
-            "mirror": true,
-            "palette_modifier": 4.0,
-            "pitch_scale": 0.8510000109672546,
-            "snap": 5,
-            "type": "pitch"
-        },
-        {
-            "bottom_offset": 12,
-            "brightness": 1.0,
-            "color_blend": 0.699999988079071,
-            "color_fade": 0.14000000059604645,
-            "color_threshold": 0.0,
-            "intensity_modifier": 8.300000190734863,
-            "kernel_side": 3,
-            "kernel_sigma": 0.8500000238418579,
-            "mirror": true,
-            "palette_modifier": 4.0,
-            "pitch_scale": 0.8510000109672546,
-            "snap": 5,
-            "type": "pitch"
-        },
-        {
-            "bottom_offset": 12,
-            "brightness": 1.0,
-            "color_blend": 0.699999988079071,
-            "color_fade": 0.14000000059604645,
-            "color_threshold": 0.0,
-            "intensity_modifier": 8.300000190734863,
-            "kernel_side": 3,
-            "kernel_sigma": 0.8500000238418579,
-            "mirror": true,
-            "palette_modifier": 4.0,
-            "pitch_scale": 0.8510000109672546,
-            "snap": 5,
-            "type": "pitch"
         }
     ]
 }
