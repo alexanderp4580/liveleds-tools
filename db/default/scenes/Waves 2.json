@@ -46,6 +46,39 @@
             "power": 0.2669999897480011,
             "type": "waves",
             "waviness": 0.2879999876022339
+        },
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.14900000393390656,
+            "direction": false,
+            "method": "hfc",
+            "mirror": true,
+            "palette_modifier": 0.3440000116825104,
+            "power": 0.2669999897480011,
+            "type": "waves",
+            "waviness": 0.2879999876022339
+        },
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.14900000393390656,
+            "direction": false,
+            "method": "hfc",
+            "mirror": true,
+            "palette_modifier": 0.3440000116825104,
+            "power": 0.2669999897480011,
+            "type": "waves",
+            "waviness": 0.2879999876022339
+        },
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.14900000393390656,
+            "direction": false,
+            "method": "hfc",
+            "mirror": true,
+            "palette_modifier": 0.3440000116825104,
+            "power": 0.2669999897480011,
+            "type": "waves",
+            "waviness": 0.2879999876022339
         }
     ]
 }

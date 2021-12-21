@@ -51,6 +51,54 @@
             "type": "snakes",
             "velocity_decay": 0.0,
             "velocity_threshold": 0.05900000035762787
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.6949999928474426,
+            "color_increase": 0.2590000033378601,
+            "direction": false,
+            "energy_velocity": false,
+            "fade_blend": 1.0,
+            "initial_snake_velocity": 3.619999885559082,
+            "max_snakes": 30,
+            "mirror": false,
+            "snake_length": 2,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.05900000035762787
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.6949999928474426,
+            "color_increase": 0.2590000033378601,
+            "direction": false,
+            "energy_velocity": false,
+            "fade_blend": 1.0,
+            "initial_snake_velocity": 3.619999885559082,
+            "max_snakes": 30,
+            "mirror": false,
+            "snake_length": 2,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.05900000035762787
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.6949999928474426,
+            "color_increase": 0.2590000033378601,
+            "direction": false,
+            "energy_velocity": false,
+            "fade_blend": 1.0,
+            "initial_snake_velocity": 3.619999885559082,
+            "max_snakes": 30,
+            "mirror": false,
+            "snake_length": 2,
+            "trigger": "onset",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.05900000035762787
         }
     ]
 }

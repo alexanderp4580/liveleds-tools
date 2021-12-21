@@ -21,8 +21,8 @@
         },
         "onset": {
             "method": "mkl",
-            "min_interval": 467.7619934082031,
-            "silence": -20.768999099731445,
+            "min_interval": 467.0,
+            "silence": -20.0,
             "threshold": -0.11699999868869781
         },
         "pitch": {
@@ -36,6 +36,30 @@
         }
     },
     "sequencers": [
+        {
+            "brightness": 1.0,
+            "color_increase": 1.5379999876022339,
+            "fade_blend": 0.02500000037252903,
+            "length": 84,
+            "randomize": false,
+            "type": "blocks"
+        },
+        {
+            "brightness": 1.0,
+            "color_increase": 1.5379999876022339,
+            "fade_blend": 0.02500000037252903,
+            "length": 84,
+            "randomize": false,
+            "type": "blocks"
+        },
+        {
+            "brightness": 1.0,
+            "color_increase": 1.5379999876022339,
+            "fade_blend": 0.02500000037252903,
+            "length": 84,
+            "randomize": false,
+            "type": "blocks"
+        },
         {
             "brightness": 1.0,
             "color_increase": 1.5379999876022339,

@@ -43,6 +43,30 @@
             "length": 13,
             "randomize": true,
             "type": "blocks"
+        },
+        {
+            "brightness": 1.0,
+            "color_increase": 1.0440000295639038,
+            "fade_blend": 0.029999999329447746,
+            "length": 13,
+            "randomize": true,
+            "type": "blocks"
+        },
+        {
+            "brightness": 1.0,
+            "color_increase": 1.0440000295639038,
+            "fade_blend": 0.029999999329447746,
+            "length": 13,
+            "randomize": true,
+            "type": "blocks"
+        },
+        {
+            "brightness": 1.0,
+            "color_increase": 1.0440000295639038,
+            "fade_blend": 0.029999999329447746,
+            "length": 13,
+            "randomize": true,
+            "type": "blocks"
         }
     ]
 }

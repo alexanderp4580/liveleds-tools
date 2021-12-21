@@ -297,20 +297,8 @@
                 "scene": "Star 1"
             },
             {
-                "duration": 20,
-                "scene": "Filterbank 3"
-            },
-            {
                 "duration": 10,
                 "scene": "Energy 1"
-            },
-            {
-                "duration": 10,
-                "scene": "Blocks 5"
-            },
-            {
-                "duration": 25,
-                "scene": "Energy 6"
             },
             {
                 "duration": 30,

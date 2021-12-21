@@ -51,6 +51,54 @@
             "type": "snakes",
             "velocity_decay": 0.0,
             "velocity_threshold": 0.02800000086426735
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.6949999928474426,
+            "color_increase": 0.2590000033378601,
+            "direction": true,
+            "energy_velocity": false,
+            "fade_blend": 0.18000000715255737,
+            "initial_snake_velocity": 2.6419999599456787,
+            "max_snakes": 5,
+            "mirror": true,
+            "snake_length": 12,
+            "trigger": "beat",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.02800000086426735
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.6949999928474426,
+            "color_increase": 0.2590000033378601,
+            "direction": true,
+            "energy_velocity": false,
+            "fade_blend": 0.18000000715255737,
+            "initial_snake_velocity": 2.6419999599456787,
+            "max_snakes": 5,
+            "mirror": true,
+            "snake_length": 12,
+            "trigger": "beat",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.02800000086426735
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.6949999928474426,
+            "color_increase": 0.2590000033378601,
+            "direction": true,
+            "energy_velocity": false,
+            "fade_blend": 0.18000000715255737,
+            "initial_snake_velocity": 2.6419999599456787,
+            "max_snakes": 5,
+            "mirror": true,
+            "snake_length": 12,
+            "trigger": "beat",
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.02800000086426735
         }
     ]
 }

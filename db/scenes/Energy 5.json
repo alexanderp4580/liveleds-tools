@@ -50,6 +50,51 @@
             "palette_modifier": 8.154000282287598,
             "static_palette": true,
             "type": "energy"
+        },
+        {
+            "bands": true,
+            "brightness": 1.0,
+            "color_blend": 0.6639999747276306,
+            "color_fade": 0.07599999755620956,
+            "color_threshold": 0.03200000151991844,
+            "envelope": 0.8999999761581421,
+            "intensity_modifier": 49.0,
+            "kernel_side": 7,
+            "kernel_sigma": 17.0,
+            "method": "energy",
+            "palette_modifier": 8.154000282287598,
+            "static_palette": true,
+            "type": "energy"
+        },
+        {
+            "bands": true,
+            "brightness": 1.0,
+            "color_blend": 0.6639999747276306,
+            "color_fade": 0.07599999755620956,
+            "color_threshold": 0.03200000151991844,
+            "envelope": 0.8999999761581421,
+            "intensity_modifier": 49.0,
+            "kernel_side": 7,
+            "kernel_sigma": 17.0,
+            "method": "energy",
+            "palette_modifier": 8.154000282287598,
+            "static_palette": true,
+            "type": "energy"
+        },
+        {
+            "bands": true,
+            "brightness": 1.0,
+            "color_blend": 0.6639999747276306,
+            "color_fade": 0.07599999755620956,
+            "color_threshold": 0.03200000151991844,
+            "envelope": 0.8999999761581421,
+            "intensity_modifier": 49.0,
+            "kernel_side": 7,
+            "kernel_sigma": 17.0,
+            "method": "energy",
+            "palette_modifier": 8.154000282287598,
+            "static_palette": true,
+            "type": "energy"
         }
     ]
 }
