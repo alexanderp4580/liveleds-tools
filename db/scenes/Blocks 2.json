@@ -1,5 +1,11 @@
 {
     "modules": {
+        "band_peak": {
+            "bass_threshold": 180.0,
+            "mid_threshold": 300.0,
+            "timeout": 300,
+            "treble_threshold": 200.0
+        },
         "filter": {
             "active": false,
             "frequency_center": 200.0,
@@ -14,8 +20,8 @@
             "power": 1.2999999523162842
         },
         "onset": {
-            "method": "default",
-            "min_interval": 162.0,
+            "method": "mkl",
+            "min_interval": 150.0,
             "silence": -22.0,
             "threshold": -0.17100000381469727
         },
@@ -32,33 +38,33 @@
     "sequencers": [
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.017999999225139618,
-            "length": 3,
+            "color_increase": 0.6620000004768372,
+            "fade_blend": 0.019999999552965164,
+            "length": 8,
             "randomize": false,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.017999999225139618,
-            "length": 3,
+            "color_increase": 0.6620000004768372,
+            "fade_blend": 0.019999999552965164,
+            "length": 8,
             "randomize": false,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.017999999225139618,
-            "length": 3,
+            "color_increase": 0.6620000004768372,
+            "fade_blend": 0.019999999552965164,
+            "length": 8,
             "randomize": false,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
-            "fade_blend": 0.017999999225139618,
-            "length": 3,
+            "color_increase": 0.6620000004768372,
+            "fade_blend": 0.019999999552965164,
+            "length": 8,
             "randomize": false,
             "type": "blocks"
         }

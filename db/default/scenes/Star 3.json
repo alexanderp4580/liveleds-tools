@@ -1,5 +1,11 @@
 {
     "modules": {
+        "band_peak": {
+            "bass_threshold": 180.0,
+            "mid_threshold": 300.0,
+            "timeout": 300,
+            "treble_threshold": 200.0
+        },
         "filter": {
             "active": false,
             "frequency_center": 200.0,
@@ -41,6 +47,7 @@
             "kernel_sigma": 1.2890000343322754,
             "min_level": 0.004999999888241291,
             "palette_modifier": 0.041999999433755875,
+            "skewness": false,
             "snap": 1,
             "type": "star"
         },
@@ -55,6 +62,7 @@
             "kernel_sigma": 1.2890000343322754,
             "min_level": 0.004999999888241291,
             "palette_modifier": 0.041999999433755875,
+            "skewness": false,
             "snap": 1,
             "type": "star"
         },
@@ -69,6 +77,7 @@
             "kernel_sigma": 1.2890000343322754,
             "min_level": 0.004999999888241291,
             "palette_modifier": 0.041999999433755875,
+            "skewness": false,
             "snap": 1,
             "type": "star"
         },
@@ -83,6 +92,7 @@
             "kernel_sigma": 1.2890000343322754,
             "min_level": 0.004999999888241291,
             "palette_modifier": 0.041999999433755875,
+            "skewness": false,
             "snap": 1,
             "type": "star"
         }
