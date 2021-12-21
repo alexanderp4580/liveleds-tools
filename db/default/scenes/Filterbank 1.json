@@ -1,5 +1,11 @@
 {
     "modules": {
+        "band_peak": {
+            "bass_threshold": 180.0,
+            "mid_threshold": 300.0,
+            "timeout": 300,
+            "treble_threshold": 200.0
+        },
         "filter": {
             "active": false,
             "frequency_center": 200.0,
@@ -8,10 +14,10 @@
             "type": "low_pass"
         },
         "filter_bank": {
-            "filters": 75,
-            "high_freq": 14873.876953125,
-            "low_freq": 59.71799850463867,
-            "power": 4.177999973297119
+            "filters": 108,
+            "high_freq": 5501.828125,
+            "low_freq": 17.39299964904785,
+            "power": 1.4279999732971191
         },
         "onset": {
             "method": "default",
@@ -31,39 +37,39 @@
     },
     "sequencers": [
         {
-            "blend_down": 0.10599999874830246,
-            "blend_up": 0.06199999898672104,
+            "blend_down": 0.10300000011920929,
+            "blend_up": 0.04100000113248825,
             "brightness": 1.0,
-            "color_increase": 1.6230000257492065,
-            "power": 1.100000023841858,
-            "threshold": 0.014999999664723873,
+            "color_increase": 4.056000232696533,
+            "power": 1.940999984741211,
+            "threshold": 0.47099998593330383,
             "type": "filter_bank"
         },
         {
-            "blend_down": 0.10599999874830246,
-            "blend_up": 0.06199999898672104,
-            "brightness": 0.15000000596046448,
-            "color_increase": 1.6230000257492065,
-            "power": 1.100000023841858,
-            "threshold": 0.014999999664723873,
+            "blend_down": 0.10300000011920929,
+            "blend_up": 0.04100000113248825,
+            "brightness": 1.0,
+            "color_increase": 4.056000232696533,
+            "power": 1.940999984741211,
+            "threshold": 0.47099998593330383,
             "type": "filter_bank"
         },
         {
-            "blend_down": 0.10599999874830246,
-            "blend_up": 0.06199999898672104,
-            "brightness": 0.15000000596046448,
-            "color_increase": 1.6230000257492065,
-            "power": 1.100000023841858,
-            "threshold": 0.014999999664723873,
+            "blend_down": 0.10300000011920929,
+            "blend_up": 0.04100000113248825,
+            "brightness": 1.0,
+            "color_increase": 4.056000232696533,
+            "power": 1.940999984741211,
+            "threshold": 0.47099998593330383,
             "type": "filter_bank"
         },
         {
-            "blend_down": 0.10599999874830246,
-            "blend_up": 0.06199999898672104,
-            "brightness": 0.15000000596046448,
-            "color_increase": 1.6230000257492065,
-            "power": 1.100000023841858,
-            "threshold": 0.014999999664723873,
+            "blend_down": 0.10300000011920929,
+            "blend_up": 0.04100000113248825,
+            "brightness": 1.0,
+            "color_increase": 4.056000232696533,
+            "power": 1.940999984741211,
+            "threshold": 0.47099998593330383,
             "type": "filter_bank"
         }
     ]

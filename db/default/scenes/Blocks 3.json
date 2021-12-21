@@ -1,5 +1,11 @@
 {
     "modules": {
+        "band_peak": {
+            "bass_threshold": 180.0,
+            "mid_threshold": 300.0,
+            "timeout": 300,
+            "treble_threshold": 200.0
+        },
         "filter": {
             "active": false,
             "frequency_center": 200.0,
@@ -14,10 +20,10 @@
             "power": 1.2999999523162842
         },
         "onset": {
-            "method": "phase",
-            "min_interval": 250.7899932861328,
+            "method": "energy",
+            "min_interval": 308.0,
             "silence": -22.0,
-            "threshold": -0.24300000071525574
+            "threshold": 0.2630000114440918
         },
         "pitch": {
             "method": "default"
@@ -32,33 +38,33 @@
     "sequencers": [
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
+            "color_increase": 0.8220000267028809,
             "fade_blend": 0.0989999994635582,
-            "length": 15,
+            "length": 18,
             "randomize": true,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
+            "color_increase": 0.8220000267028809,
             "fade_blend": 0.0989999994635582,
-            "length": 15,
+            "length": 18,
             "randomize": true,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
+            "color_increase": 0.8220000267028809,
             "fade_blend": 0.0989999994635582,
-            "length": 15,
+            "length": 18,
             "randomize": true,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 1.0750000476837158,
+            "color_increase": 0.8220000267028809,
             "fade_blend": 0.0989999994635582,
-            "length": 15,
+            "length": 18,
             "randomize": true,
             "type": "blocks"
         }
