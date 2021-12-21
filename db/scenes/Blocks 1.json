@@ -1,11 +1,5 @@
 {
     "modules": {
-        "band_peak": {
-            "bass_threshold": 180.0,
-            "mid_threshold": 300.0,
-            "timeout": 300,
-            "treble_threshold": 200.0
-        },
         "filter": {
             "active": false,
             "frequency_center": 200.0,
@@ -21,7 +15,7 @@
         },
         "onset": {
             "method": "mkl",
-            "min_interval": 1.0,
+            "min_interval": 162.0,
             "silence": -22.0,
             "threshold": -0.06800000369548798
         },

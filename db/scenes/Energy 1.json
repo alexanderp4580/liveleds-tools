@@ -1,11 +1,5 @@
 {
     "modules": {
-        "band_peak": {
-            "bass_threshold": 180.0,
-            "mid_threshold": 300.0,
-            "timeout": 300,
-            "treble_threshold": 200.0
-        },
         "filter": {
             "active": false,
             "frequency_center": 200.0,
@@ -37,7 +31,20 @@
     },
     "sequencers": [
         {
-            "bands": false,
+            "brightness": 1.0,
+            "color_blend": 0.1809999942779541,
+            "color_fade": 0.1599999964237213,
+            "color_threshold": 0.0,
+            "envelope": 0.8999999761581421,
+            "intensity_modifier": 64.96700286865234,
+            "kernel_side": 10,
+            "kernel_sigma": 14.163999557495117,
+            "method": "specdiff",
+            "palette_modifier": 0.39100000262260437,
+            "static_palette": true,
+            "type": "energy"
+        },
+        {
             "brightness": 1.0,
             "color_blend": 0.1809999942779541,
             "color_fade": 0.1599999964237213,
@@ -52,7 +59,6 @@
             "type": "energy"
         },
         {
-            "bands": false,
             "brightness": 1.0,
             "color_blend": 0.1809999942779541,
             "color_fade": 0.1599999964237213,
@@ -67,22 +73,6 @@
             "type": "energy"
         },
         {
-            "bands": false,
-            "brightness": 1.0,
-            "color_blend": 0.1809999942779541,
-            "color_fade": 0.1599999964237213,
-            "color_threshold": 0.0,
-            "envelope": 0.8999999761581421,
-            "intensity_modifier": 64.0,
-            "kernel_side": 10,
-            "kernel_sigma": 14.0,
-            "method": "specdiff",
-            "palette_modifier": 0.39100000262260437,
-            "static_palette": true,
-            "type": "energy"
-        },
-        {
-            "bands": false,
             "brightness": 1.0,
             "color_blend": 0.1809999942779541,
             "color_fade": 0.1599999964237213,
