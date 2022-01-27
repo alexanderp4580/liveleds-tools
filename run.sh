@@ -2,8 +2,6 @@
 
 # Download latest binary and generate md5 file.
 function downloadLatestBinary() {
-    # Resync time
-    systemctl restart systemd-timesyncd
     VERSION_OUTPUT=$(curl https://liveleds.io/version/latest)
     VERSION=$(jq -r '.version' <<<"$VERSION_OUTPUT")
     MD5=$(jq -r '.md5' <<<"$VERSION_OUTPUT")
@@ -17,6 +15,7 @@ function downloadLatestBinary() {
 
 # Start
 echo "Starting script."
+sleep 3
 
 # Disable wlan0 Power Management
 /sbin/iw wlan0 set power_save off
@@ -34,6 +33,9 @@ if [ $? -ne 0 ]; then
 else
     echo "Pulseaudio running."
 fi
+
+pacmd load-module module-remap-source source_name=virt_ll_sink.monitor master=alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo.monitor channel_map=mono channels=1
+pacmd load-module module-loopback source=alsa_output.platform-bcm2835_audio.analog-stereo.monitor sink=alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo latency_msec=20 adjust_time=2
 
 # Set exit on error after the check.
 set -e
@@ -68,4 +70,4 @@ fi
 echo "Source name: $SOURCE_NAME."
 
 echo "Running."
-./liveleds --verbose --source device --source-name "$SOURCE_NAME" --sample-rate 48000 --database "db"
+./liveleds --verbose --source device --source-name "$SOURCE_NAME" --sample-rate 44100 --database "db"
