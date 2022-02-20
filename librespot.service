@@ -1,0 +1,12 @@
+[Unit]
+Description=Spotify Client
+
+[Service]
+Type=simple
+ExecPreStart=sleep 5
+ExecStart=librespot --enable-volume-normalisation --name LiveLeds
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

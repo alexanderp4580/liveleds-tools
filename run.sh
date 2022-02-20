@@ -1,4 +1,5 @@
 #! /bin/bash
+set -x
 
 # Download latest binary and generate md5 file.
 function downloadLatestBinary() {
@@ -21,6 +22,42 @@ echo "Starting script."
 
 # Discard locale information.
 export LC_ALL=C; unset LANGUAGE
+
+# Fix ntpd
+NTPD_CURRENT=$(sed -n '/^[[:blank:]]*CONFIG_NTP_MODE=/{s/^[^=]*=//p;q}' /boot/dietpi.txt)
+if [ $NTPD_CURRENT -ne "0"  ]; then
+    echo "Incorrect NTPD value."
+    /boot/dietpi/func/dietpi-set_software ntpd-mode 0
+    reboot
+fi
+
+# Install librespot
+if ! command -v librespot &> /dev/null
+then
+    echo "librespot could not be found. Installing."
+    curl -k -o /tmp/raspotify.deb -L https://github.com/dtcooper/raspotify/releases/download/0.31.7/raspotify_0.31.7.librespot.v0.3.1-54-gf4be9bb_armhf.deb
+    sudo apt -y install /tmp/raspotify.deb
+    rm /tmp/raspotify.deb
+    systemctl stop raspotify
+    systemctl disable raspotify
+    systemctl mask raspotify
+    cp librespot.service /etc/systemd/system/librespot.service
+    systemctl daemon-reload
+    systemctl enable librespot
+    systemctl start librespot
+    exit
+fi
+
+# Enable soundcard
+SOUNDCARD=$(sed -n '/^[[:blank:]]*CONFIG_SOUNDCARD=/{s/^[^=]*=//;p;q}' /boot/dietpi.txt)
+if [ "$SOUNDCARD" != "rpi-bcm2835-3.5mm" ]; then
+    echo "Enabling soundcard."
+    apt-get update --allow-releaseinfo-change
+    /boot/dietpi/func/dietpi-set_hardware soundcard "rpi-bcm2835-3.5mm"
+    reboot
+fi
+
+exit
 
 # Check for pulseaudio
 pulseaudio --k
