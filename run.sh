@@ -23,14 +23,6 @@ echo "Starting script."
 # Discard locale information.
 export LC_ALL=C; unset LANGUAGE
 
-# Fix ntpd
-NTPD_CURRENT=$(sed -n '/^[[:blank:]]*CONFIG_NTP_MODE=/{s/^[^=]*=//p;q}' /boot/dietpi.txt)
-if [ $NTPD_CURRENT -ne "0"  ]; then
-    echo "Incorrect NTPD value."
-    /boot/dietpi/func/dietpi-set_software ntpd-mode 0
-    reboot
-fi
-
 # Install librespot
 if ! command -v librespot &> /dev/null
 then
@@ -45,7 +37,6 @@ then
     systemctl daemon-reload
     systemctl enable librespot
     systemctl start librespot
-    exit
 fi
 
 # Enable soundcard
@@ -53,7 +44,9 @@ SOUNDCARD=$(sed -n '/^[[:blank:]]*CONFIG_SOUNDCARD=/{s/^[^=]*=//;p;q}' /boot/die
 if [ "$SOUNDCARD" != "rpi-bcm2835-3.5mm" ]; then
     echo "Enabling soundcard."
     apt-get update --allow-releaseinfo-change
+    apt -y install pulseaudio
     /boot/dietpi/func/dietpi-set_hardware soundcard "rpi-bcm2835-3.5mm"
+    echo "hdmi_ignore_edid_audio=1" >> /boot/config.txt
     reboot
 fi
 
@@ -66,8 +59,8 @@ echo "Starting pulseaudio."
 pulseaudio &
 sleep 5
 
-pacmd load-module module-remap-source source_name=virt_ll_sink.monitor master=alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo.monitor channel_map=mono channels=1
-pacmd load-module module-loopback source=alsa_output.platform-bcm2835_audio.analog-stereo.monitor sink=alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo latency_msec=20 adjust_time=2
+pacmd load-module module-remap-source source_name=virt_ll_source_mono master=alsa_output.platform-bcm2835_audio.analog-stereo.monitor channel_map=mono channels=1 latency_msec=40
+pacmd load-module module-loopback source=alsa_output.platform-bcm2835_audio.analog-stereo.monitor sink=alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo latency_msec=20
 
 sleep 5
 
