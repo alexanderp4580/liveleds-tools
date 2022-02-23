@@ -50,8 +50,6 @@ if [ "$SOUNDCARD" != "rpi-bcm2835-3.5mm" ]; then
     reboot
 fi
 
-exit
-
 # Check for pulseaudio
 pulseaudio --k
 
