@@ -60,7 +60,7 @@ pulseaudio &
 sleep 5
 
 pacmd load-module module-remap-source source_name=virt_ll_source_mono master=alsa_output.platform-bcm2835_audio.analog-stereo.monitor channel_map=mono channels=1 latency_msec=40
-pacmd load-module module-loopback source=alsa_output.platform-bcm2835_audio.analog-stereo.monitor sink=alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo latency_msec=20
+pacmd load-module module-loopback source=alsa_output.platform-bcm2835_audio.analog-stereo.monitor sink=alsa_output.platform-bcm2835_audio.digital-stereo latency_msec=20
 
 sleep 5
 
