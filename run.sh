@@ -50,6 +50,8 @@ if [ "$SOUNDCARD" != "rpi-bcm2835-3.5mm" ]; then
     reboot
 fi
 
+sleep 5
+
 # Check for pulseaudio
 pulseaudio --k
 
@@ -57,9 +59,13 @@ echo "Starting pulseaudio."
 pulseaudio &
 sleep 5
 
-pacmd load-module module-remap-source source_name=virt_ll_source_mono master=alsa_output.platform-bcm2835_audio.analog-stereo.monitor channel_map=mono channels=1
-pacmd load-module module-loopback source=alsa_output.platform-bcm2835_audio.analog-stereo.monitor sink=alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo latency_msec=20
-pactl set-default-sink pactl set-default-sink alsa_output.platform-bcm2835_audio.analog-stereo
+pacmd load-module module-null-sink sink_name=virt_ll_sink rate=44100 channels=1
+pacmd load-module module-loopback source=alsa_output.platform-bcm2835_audio.analog-stereo.monitor sink=virt_ll_sink rate=44100 latency_msec=355
+pacmd load-module module-remap-source source_name=virt_ll_source_mono master=virt_ll_sink.monitor channel_map=mono channels=1
+(pacat -r --latency-msec=1 -d alsa_output.platform-bcm2835_audio.analog-stereo.monitor | pacat -p --latency-msec=495 -d alsa_output.usb-C-Media_Electronics_Inc._USB_Audio_Device-00.analog-stereo) &
+
+pactl list sources short
+pactl list sinks short
 
 sleep 5
 

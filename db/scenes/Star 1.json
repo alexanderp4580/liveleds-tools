@@ -38,17 +38,20 @@
     "sequencers": [
         {
             "brightness": 1.0,
-            "color_blend": 0.4000000059604645,
-            "color_fade": 0.18000000715255737,
+            "color_blend": 0.9589999914169312,
+            "color_fade": 0.09300000220537186,
             "color_threshold": 0.0,
-            "envelope": 0.4000000059604645,
+            "envelope": 0.6259999871253967,
             "intensity_modifier": 3.5,
             "kernel_side": 5,
             "kernel_sigma": 1.0,
             "min_level": 0.009999999776482582,
+            "mirror": false,
             "palette_modifier": 0.029999999329447746,
-            "snap": 5,
-            "type": "star"
+            "skewness": false,
+            "snap": 1,
+            "type": "star",
+            "value_blend": 0.17900000512599945
         },
         {
             "brightness": 1.0,
@@ -60,9 +63,12 @@
             "kernel_side": 5,
             "kernel_sigma": 1.0,
             "min_level": 0.009999999776482582,
+            "mirror": false,
             "palette_modifier": 0.029999999329447746,
+            "skewness": false,
             "snap": 5,
-            "type": "star"
+            "type": "star",
+            "value_blend": 0.5
         },
         {
             "brightness": 1.0,
@@ -74,9 +80,12 @@
             "kernel_side": 5,
             "kernel_sigma": 1.0,
             "min_level": 0.009999999776482582,
+            "mirror": false,
             "palette_modifier": 0.029999999329447746,
+            "skewness": false,
             "snap": 5,
-            "type": "star"
+            "type": "star",
+            "value_blend": 0.5
         },
         {
             "brightness": 1.0,
@@ -88,9 +97,12 @@
             "kernel_side": 5,
             "kernel_sigma": 1.0,
             "min_level": 0.009999999776482582,
+            "mirror": false,
             "palette_modifier": 0.029999999329447746,
+            "skewness": false,
             "snap": 5,
-            "type": "star"
+            "type": "star",
+            "value_blend": 0.5
         }
     ]
 }
