@@ -333,5 +333,22 @@
                 "scene": "Wisps 1"
             }
         ]
+    },
+    {
+        "name": "Multi",
+        "playlist": [
+            {
+                "duration": 7,
+                "scene": "Multi 2"
+            },
+            {
+                "duration": 5,
+                "scene": "Multi 1"
+            },
+            {
+                "duration": 5,
+                "scene": "Multi 3"
+            }
+        ]
     }
 ]

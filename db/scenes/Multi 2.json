@@ -1,0 +1,89 @@
+{
+    "modules": {
+        "band_peak": {
+            "bass_threshold": 180.0,
+            "mid_threshold": 300.0,
+            "timeout": 300,
+            "treble_threshold": 200.0
+        },
+        "filter": {
+            "active": false,
+            "frequency_center": 200.0,
+            "gain": 0.0,
+            "q_intensity": 0.30000001192092896,
+            "type": "low_pass"
+        },
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -20.0,
+            "threshold": 0.30000001192092896
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [
+        {
+            "brightness": 1.0,
+            "color_blend": 0.875,
+            "color_increase": 0.13199999928474426,
+            "direction": true,
+            "energy_velocity": true,
+            "fade_blend": 0.13199999928474426,
+            "initial_wisp_velocity": 1.6970000267028809,
+            "live_color": false,
+            "max_wisps": 80,
+            "mirror": false,
+            "random": true,
+            "trigger": "pressure",
+            "trigger_threshold": -15.034000396728516,
+            "type": "wisps",
+            "velocity_decay": 0.05900000035762787,
+            "velocity_threshold": 0.13500000536441803,
+            "wisp_length": 3
+        },
+        {
+            "bands": false,
+            "brightness": 1.0,
+            "color_blend": 0.5,
+            "color_fade": 0.3490000069141388,
+            "color_threshold": 0.0,
+            "envelope": 0.9409999847412109,
+            "intensity_modifier": 64.0,
+            "kernel_side": 19,
+            "kernel_sigma": 4.0,
+            "method": "energy",
+            "palette_modifier": 0.30000001192092896,
+            "static_palette": true,
+            "type": "energy"
+        },
+        {
+            "bands": false,
+            "brightness": 1.0,
+            "color_blend": 0.32600000500679016,
+            "color_fade": 0.503000020980835,
+            "color_threshold": 0.0,
+            "envelope": 0.8980000019073486,
+            "intensity_modifier": 100.0,
+            "kernel_side": 17,
+            "kernel_sigma": 30.0,
+            "method": "energy",
+            "palette_modifier": 0.3009999990463257,
+            "static_palette": true,
+            "type": "energy"
+        }
+    ]
+}

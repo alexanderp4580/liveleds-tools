@@ -1,9 +1,8 @@
 #! /bin/bash
+set -x
 
 # Download latest binary and generate md5 file.
 function downloadLatestBinary() {
-    # Resync time
-    systemctl restart systemd-timesyncd
     VERSION_OUTPUT=$(curl https://liveleds.io/version/latest)
     VERSION=$(jq -r '.version' <<<"$VERSION_OUTPUT")
     MD5=$(jq -r '.md5' <<<"$VERSION_OUTPUT")
@@ -23,17 +22,14 @@ echo "Starting script."
 
 # Discard locale information.
 export LC_ALL=C; unset LANGUAGE
+sleep 5
 
 # Check for pulseaudio
-pulseaudio --check
+pulseaudio --k
 
-if [ $? -ne 0 ]; then
-    echo "Starting pulseaudio."
-    pulseaudio &
-    sleep 5
-else
-    echo "Pulseaudio running."
-fi
+echo "Starting pulseaudio."
+pulseaudio &
+sleep 5
 
 # Set exit on error after the check.
 set -e
@@ -68,4 +64,4 @@ fi
 echo "Source name: $SOURCE_NAME."
 
 echo "Running."
-./liveleds --verbose --source device --source-name "$SOURCE_NAME" --sample-rate 48000 --database "db"
+./liveleds --verbose --source device --source-name "$SOURCE_NAME" --sample-rate 44100 --database "db"
