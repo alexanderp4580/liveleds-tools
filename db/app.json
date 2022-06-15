@@ -4,21 +4,23 @@
     "automatic_gain_control": false,
     "brightness": 1.0,
     "change_palette_after_beats": 0,
-    "change_palette_after_seconds": 30,
-    "current_scene": "Waves 2",
-    "gain": 68,
+    "change_palette_after_seconds": 0,
+    "current_scene": "Pro 1",
+    "device_id": "unknown",
+    "gain": 70,
     "logs_enabled": false,
-    "palette": "Astral Glow",
-    "volume_control": true,
-    "playing_movie_id": 7,
+    "output_volume": 46,
+    "palette": "Abstract",
+    "playing_movie_id": 9,
     "selected_palettes": [
-        "Abstract",
         "Astral Glow",
         "Blues",
         "Glitch",
         "Neons",
         "Party",
         "Psych",
-        "Warm"
-    ]
+        "Warm",
+        "white"
+    ],
+    "volume_control": true
 }

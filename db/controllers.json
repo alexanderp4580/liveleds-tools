@@ -1,9 +1,49 @@
 [
     {
         "active": true,
+        "leds": 300,
+        "output": {
+            "ip": "10.41.0.83",
+            "port": 21324,
+            "type": "WLED"
+        },
+        "type": "basic"
+    },
+    {
+        "active": true,
+        "leds": 300,
+        "output": {
+            "ip": "10.41.0.253",
+            "port": 21324,
+            "type": "WLED"
+        },
+        "type": "basic"
+    },
+    {
+        "active": true,
+        "leds": 300,
+        "output": {
+            "ip": "10.41.0.132",
+            "port": 21324,
+            "type": "WLED"
+        },
+        "type": "basic"
+    },
+    {
+        "active": true,
         "leds": 75,
         "output": {
-            "ip": "10.41.0.111",
+            "ip": "10.41.0.5",
+            "port": 21324,
+            "type": "WLED"
+        },
+        "type": "basic"
+    },
+    {
+        "active": true,
+        "leds": 75,
+        "output": {
+            "ip": "10.41.0.218",
             "port": 21324,
             "type": "WLED"
         },

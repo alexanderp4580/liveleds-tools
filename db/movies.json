@@ -350,5 +350,50 @@
                 "scene": "Multi 3"
             }
         ]
+    },
+    {
+        "name": "Pro",
+        "playlist": [
+            {
+                "duration": 20,
+                "scene": "Pro 1"
+            },
+            {
+                "duration": 25,
+                "scene": "Pro 2"
+            },
+            {
+                "duration": 30,
+                "scene": "Pro 3"
+            },
+            {
+                "duration": 10,
+                "scene": "Pro 4"
+            },
+            {
+                "duration": 15,
+                "scene": "Pro 5"
+            },
+            {
+                "duration": 20,
+                "scene": "Pro 6"
+            },
+            {
+                "duration": 20,
+                "scene": "Pro 7"
+            },
+            {
+                "duration": 25,
+                "scene": "Pro 8"
+            },
+            {
+                "duration": 10,
+                "scene": "Pro 9"
+            },
+            {
+                "duration": 12,
+                "scene": "Pro 10"
+            }
+        ]
     }
 ]
