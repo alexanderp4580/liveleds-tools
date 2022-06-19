@@ -1,7 +1,7 @@
 {
     "modules": {
         "band_peak": {
-            "bass_threshold": 178.91900634765625,
+            "bass_threshold": 178.0,
             "mid_threshold": 300.0,
             "timeout": 96,
             "treble_threshold": 200.0
@@ -22,7 +22,7 @@
         "onset": {
             "method": "default",
             "min_interval": 1.0,
-            "silence": -17.006999969482422,
+            "silence": -17.0,
             "threshold": 0.3869999945163727
         },
         "pitch": {
@@ -89,7 +89,10 @@
             "color_increase": 0.23000000417232513,
             "fade_blend": 0.08100000023841858,
             "length": 17,
+            "min_delay_frames": 5,
             "randomize": true,
+            "trigger": "onset",
+            "trigger_threshold": -23.0,
             "type": "blocks"
         },
         {
@@ -97,7 +100,10 @@
             "color_increase": 0.23000000417232513,
             "fade_blend": 0.057999998331069946,
             "length": 17,
+            "min_delay_frames": 5,
             "randomize": true,
+            "trigger": "onset",
+            "trigger_threshold": -23.0,
             "type": "blocks"
         }
     ]

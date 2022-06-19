@@ -393,6 +393,10 @@
             {
                 "duration": 12,
                 "scene": "Pro 10"
+            },
+            {
+                "duration": 12,
+                "scene": "Pro 11"
             }
         ]
     }

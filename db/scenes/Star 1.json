@@ -39,19 +39,19 @@
         {
             "brightness": 1.0,
             "color_blend": 0.9589999914169312,
-            "color_fade": 0.09300000220537186,
+            "color_fade": 0.382999986410141,
             "color_threshold": 0.0,
-            "envelope": 0.6259999871253967,
-            "intensity_modifier": 3.5,
-            "kernel_side": 5,
-            "kernel_sigma": 1.0,
+            "envelope": 0.20499999821186066,
+            "intensity_modifier": 24.95199966430664,
+            "kernel_side": 9,
+            "kernel_sigma": 16.506999969482422,
             "min_level": 0.009999999776482582,
-            "mirror": false,
+            "mirror": true,
             "palette_modifier": 0.029999999329447746,
-            "skewness": false,
+            "skewness": true,
             "snap": 1,
             "type": "star",
-            "value_blend": 0.17900000512599945
+            "value_blend": 0.4059999883174896
         },
         {
             "brightness": 1.0,
