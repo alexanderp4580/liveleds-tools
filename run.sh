@@ -56,10 +56,9 @@ if [[ "$MD5_EXPECTED" != "$MD5_RESULT" ]]; then
 fi
 
 # Get source name
-SOURCE_NAME=$(pacmd list-sources | grep device.description | grep Mono | awk -F'"' '$0=$2')
+SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|\"CM106" | awk -F'"' '$0=$2')
 if [[ -z "$SOURCE_NAME" ]]; then
     echo "Failed to find source device."
-    exit 1
 fi
 echo "Source name: $SOURCE_NAME."
 
