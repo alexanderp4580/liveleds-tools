@@ -5,21 +5,26 @@
     "brightness": 1.0,
     "change_palette_after_beats": 0,
     "change_palette_after_seconds": 30,
-    "current_scene": "Pro 1",
-    "device_id": "",
+    "current_scene": "Energy",
+    "device_id": "v2",
     "gain": 79,
-    "logs_enabled": true,
+    "logs_enabled": false,
     "output_volume": 0,
-    "palette": "Party",
+    "palette": "Abstract",
     "playing_movie_id": 2,
     "selected_palettes": [
+        "Abstract",
         "Astral Glow",
-        "Blues",
         "Glitch",
+        "Greens",
         "Neons",
         "Party",
         "Psych",
-        "white"
+        "Purples",
+        "Rainbow",
+        "Warm",
+        "White",
+        "Yellows"
     ],
     "volume_control": false
 }

@@ -10,16 +10,21 @@
     "gain": 79,
     "logs_enabled": false,
     "output_volume": 0,
-    "palette": "Party",
-    "playing_movie_id": 0,
+    "palette": "Abstract",
+    "playing_movie_id": 2,
     "selected_palettes": [
+        "Abstract",
         "Astral Glow",
-        "Blues",
         "Glitch",
+        "Greens",
         "Neons",
         "Party",
         "Psych",
-        "white"
+        "Purples",
+        "Rainbow",
+        "Warm",
+        "White",
+        "Yellows"
     ],
     "volume_control": false
 }

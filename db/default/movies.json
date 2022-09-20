@@ -1,1 +1,153 @@
-[]
+[
+    {
+        "name": "All",
+        "playlist": [
+            {
+                "duration": 20,
+                "scene": "Blocks"
+            },
+            {
+                "duration": 20,
+                "scene": "Blocks 2"
+            },
+            {
+                "duration": 20,
+                "scene": "Blocks 3"
+            },
+            {
+                "duration": 20,
+                "scene": "Energy"
+            },
+            {
+                "duration": 20,
+                "scene": "Filterbank"
+            },
+            {
+                "duration": 20,
+                "scene": "Mini Lights"
+            },
+            {
+                "duration": 20,
+                "scene": "Mini Lights Line"
+            },
+            {
+                "duration": 20,
+                "scene": "Pitch"
+            },
+            {
+                "duration": 20,
+                "scene": "Blocks Strobe"
+            },
+            {
+                "duration": 20,
+                "scene": "Snakes"
+            },
+            {
+                "duration": 20,
+                "scene": "Snakes Bass"
+            },
+            {
+                "duration": 20,
+                "scene": "Star 2"
+            },
+            {
+                "duration": 20,
+                "scene": "Star Fast"
+            },
+            {
+                "duration": 20,
+                "scene": "Star Slow"
+            },
+            {
+                "duration": 20,
+                "scene": "Waves"
+            },
+            {
+                "duration": 20,
+                "scene": "Waves Reversed"
+            },
+            {
+                "duration": 20,
+                "scene": "Wisps"
+            },
+            {
+                "duration": 20,
+                "scene": "Wisps Double"
+            },
+            {
+                "duration": 20,
+                "scene": "Wisps 2"
+            },
+            {
+                "duration": 20,
+                "scene": "Wisps Strobe"
+            }
+        ]
+    },
+    {
+        "name": "Favorites Fast",
+        "playlist": [
+            {
+                "duration": 15,
+                "scene": "Blocks"
+            },
+            {
+                "duration": 25,
+                "scene": "Energy"
+            },
+            {
+                "duration": 20,
+                "scene": "Mini Lights"
+            },
+            {
+                "duration": 30,
+                "scene": "Snakes Bass"
+            },
+            {
+                "duration": 25,
+                "scene": "Star 2"
+            },
+            {
+                "duration": 30,
+                "scene": "Waves"
+            },
+            {
+                "duration": 25,
+                "scene": "Wisps Double"
+            }
+        ]
+    },
+    {
+        "name": "Favorites Slow",
+        "playlist": [
+            {
+                "duration": 120,
+                "scene": "Blocks"
+            },
+            {
+                "duration": 160,
+                "scene": "Energy"
+            },
+            {
+                "duration": 60,
+                "scene": "Mini Lights"
+            },
+            {
+                "duration": 70,
+                "scene": "Snakes Bass"
+            },
+            {
+                "duration": 60,
+                "scene": "Star 2"
+            },
+            {
+                "duration": 120,
+                "scene": "Waves"
+            },
+            {
+                "duration": 90,
+                "scene": "Wisps Double"
+            }
+        ]
+    }
+]

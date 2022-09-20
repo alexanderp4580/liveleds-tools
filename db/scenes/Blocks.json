@@ -63,33 +63,33 @@
             "brightness": 1.0,
             "color_increase": 1.121999979019165,
             "fade_blend": 0.13600000739097595,
-            "length": 50,
-            "min_delay_frames": 5,
+            "length": 44,
+            "min_delay_frames": 10,
             "randomize": false,
             "trigger": "pressure",
-            "trigger_threshold": -9.461000442504883,
+            "trigger_threshold": -8.402000427246094,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
             "color_increase": 1.121999979019165,
             "fade_blend": 0.13600000739097595,
-            "length": 50,
-            "min_delay_frames": 5,
+            "length": 44,
+            "min_delay_frames": 10,
             "randomize": false,
             "trigger": "pressure",
-            "trigger_threshold": -9.461000442504883,
+            "trigger_threshold": -8.402000427246094,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
             "color_increase": 1.121999979019165,
             "fade_blend": 0.13600000739097595,
-            "length": 50,
-            "min_delay_frames": 5,
+            "length": 44,
+            "min_delay_frames": 10,
             "randomize": false,
             "trigger": "pressure",
-            "trigger_threshold": -9.461000442504883,
+            "trigger_threshold": -8.402000427246094,
             "type": "blocks"
         }
     ]

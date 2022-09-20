@@ -2,8 +2,8 @@
     "modules": {
         "band_peak": {
             "bass_threshold": 178.0,
-            "mid_threshold": 300.0,
-            "timeout": 100,
+            "mid_threshold": 507.85101318359375,
+            "timeout": 160,
             "treble_threshold": 200.0
         },
         "filter": {
@@ -22,9 +22,9 @@
         "onset": {
             "adaptive_whitening": true,
             "method": "mkl",
-            "min_interval": 1.0,
-            "silence": -14.597999572753906,
-            "threshold": -0.05299999937415123
+            "min_interval": 142.4980010986328,
+            "silence": -12.723999977111816,
+            "threshold": -0.45100000500679016
         },
         "pitch": {
             "method": "default"
@@ -42,9 +42,9 @@
             "color_blend": 0.6420000195503235,
             "color_increase": 1.0369999408721924,
             "direction": false,
-            "energy_velocity": true,
+            "energy_velocity": false,
             "fade_blend": 0.28600001335144043,
-            "initial_snake_velocity": 4.478000164031982,
+            "initial_snake_velocity": 2.1429998874664307,
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,
@@ -58,9 +58,9 @@
             "color_blend": 0.6420000195503235,
             "color_increase": 1.0369999408721924,
             "direction": false,
-            "energy_velocity": true,
+            "energy_velocity": false,
             "fade_blend": 0.28600001335144043,
-            "initial_snake_velocity": 4.478000164031982,
+            "initial_snake_velocity": 2.1429998874664307,
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,
@@ -74,9 +74,9 @@
             "color_blend": 0.6420000195503235,
             "color_increase": 1.0369999408721924,
             "direction": false,
-            "energy_velocity": true,
+            "energy_velocity": false,
             "fade_blend": 0.28600001335144043,
-            "initial_snake_velocity": 4.478000164031982,
+            "initial_snake_velocity": 2.1429998874664307,
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,
@@ -90,9 +90,9 @@
             "color_blend": 0.6420000195503235,
             "color_increase": 1.0369999408721924,
             "direction": false,
-            "energy_velocity": true,
+            "energy_velocity": false,
             "fade_blend": 0.28600001335144043,
-            "initial_snake_velocity": 4.478000164031982,
+            "initial_snake_velocity": 2.1429998874664307,
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,
@@ -106,9 +106,9 @@
             "color_blend": 0.6420000195503235,
             "color_increase": 1.0369999408721924,
             "direction": false,
-            "energy_velocity": true,
+            "energy_velocity": false,
             "fade_blend": 0.28600001335144043,
-            "initial_snake_velocity": 4.478000164031982,
+            "initial_snake_velocity": 2.1429998874664307,
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,

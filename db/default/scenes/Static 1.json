@@ -38,22 +38,27 @@
     },
     "sequencers": [
         {
-            "animation_speed": 0.05900000035762787,
-            "brightness": 0.9779510498046875,
-            "type": "static"
-        },
-        {
-            "animation_speed": 0.05900000035762787,
+            "animation_speed": 0.1340000033378601,
             "brightness": 1.0,
             "type": "static"
         },
         {
-            "animation_speed": 0.05900000035762787,
+            "animation_speed": 0.1340000033378601,
             "brightness": 1.0,
             "type": "static"
         },
         {
-            "animation_speed": 0.05900000035762787,
+            "animation_speed": 0.1340000033378601,
+            "brightness": 1.0,
+            "type": "static"
+        },
+        {
+            "animation_speed": 0.1340000033378601,
+            "brightness": 1.0,
+            "type": "static"
+        },
+        {
+            "animation_speed": 0.1340000033378601,
             "brightness": 1.0,
             "type": "static"
         }
