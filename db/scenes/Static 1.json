@@ -20,6 +20,7 @@
             "power": 1.2999999523162842
         },
         "onset": {
+            "adaptive_whitening": false,
             "method": "default",
             "min_interval": 160.0,
             "silence": -20.0,
@@ -38,7 +39,7 @@
     "sequencers": [
         {
             "animation_speed": 0.05900000035762787,
-            "brightness": 1.0,
+            "brightness": 0.9779510498046875,
             "type": "static"
         },
         {

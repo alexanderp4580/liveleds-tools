@@ -20,10 +20,11 @@
             "power": 1.2999999523162842
         },
         "onset": {
-            "method": "mkl",
-            "min_interval": 150.0,
-            "silence": -22.0,
-            "threshold": -0.17100000381469727
+            "adaptive_whitening": false,
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -20.0,
+            "threshold": 0.30000001192092896
         },
         "pitch": {
             "method": "default"
@@ -38,34 +39,57 @@
     "sequencers": [
         {
             "brightness": 1.0,
-            "color_increase": 0.6620000004768372,
-            "fade_blend": 0.019999999552965164,
-            "length": 8,
-            "randomize": false,
+            "color_increase": 0.3199999928474426,
+            "fade_blend": 0.04600000008940697,
+            "length": 45,
+            "min_delay_frames": 10,
+            "randomize": true,
+            "trigger": "pressure",
+            "trigger_threshold": -10.32699966430664,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 0.6620000004768372,
-            "fade_blend": 0.019999999552965164,
-            "length": 8,
-            "randomize": false,
+            "color_increase": 0.3199999928474426,
+            "fade_blend": 0.04600000008940697,
+            "length": 45,
+            "min_delay_frames": 10,
+            "randomize": true,
+            "trigger": "pressure",
+            "trigger_threshold": -10.32699966430664,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 0.6620000004768372,
-            "fade_blend": 0.019999999552965164,
-            "length": 8,
-            "randomize": false,
+            "color_increase": 0.3199999928474426,
+            "fade_blend": 0.04600000008940697,
+            "length": 45,
+            "min_delay_frames": 10,
+            "randomize": true,
+            "trigger": "pressure",
+            "trigger_threshold": -10.32699966430664,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
-            "color_increase": 0.6620000004768372,
-            "fade_blend": 0.019999999552965164,
-            "length": 8,
-            "randomize": false,
+            "color_increase": 0.3199999928474426,
+            "fade_blend": 0.04600000008940697,
+            "length": 45,
+            "min_delay_frames": 10,
+            "randomize": true,
+            "trigger": "pressure",
+            "trigger_threshold": -10.32699966430664,
+            "type": "blocks"
+        },
+        {
+            "brightness": 1.0,
+            "color_increase": 0.3199999928474426,
+            "fade_blend": 0.04600000008940697,
+            "length": 45,
+            "min_delay_frames": 10,
+            "randomize": true,
+            "trigger": "pressure",
+            "trigger_threshold": -10.32699966430664,
             "type": "blocks"
         }
     ]

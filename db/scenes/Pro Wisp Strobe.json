@@ -1,0 +1,141 @@
+{
+    "modules": {
+        "band_peak": {
+            "bass_threshold": 180.0,
+            "mid_threshold": 300.0,
+            "timeout": 300,
+            "treble_threshold": 200.0
+        },
+        "filter": {
+            "active": false,
+            "frequency_center": 200.0,
+            "gain": 0.0,
+            "q_intensity": 0.30000001192092896,
+            "type": "low_pass"
+        },
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "adaptive_whitening": false,
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -20.0,
+            "threshold": 0.30000001192092896
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [
+        {
+            "brightness": 1.0,
+            "color_blend": 0.9110000133514404,
+            "color_increase": 0.20100000500679016,
+            "direction": true,
+            "energy_velocity": false,
+            "fade_blend": 0.19699999690055847,
+            "initial_wisp_velocity": 4.177000045776367,
+            "live_color": false,
+            "max_wisps": 80,
+            "min_delay_frames": 1,
+            "mirror": true,
+            "random": true,
+            "trigger": "pressure",
+            "trigger_threshold": -9.779000282287598,
+            "type": "wisps",
+            "velocity_decay": 0.2460000067949295,
+            "velocity_threshold": 0.3109999895095825,
+            "wisp_length": 50
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.9110000133514404,
+            "color_increase": 0.20100000500679016,
+            "direction": true,
+            "energy_velocity": false,
+            "fade_blend": 0.19699999690055847,
+            "initial_wisp_velocity": 4.177000045776367,
+            "live_color": false,
+            "max_wisps": 80,
+            "min_delay_frames": 1,
+            "mirror": true,
+            "random": true,
+            "trigger": "pressure",
+            "trigger_threshold": -9.779000282287598,
+            "type": "wisps",
+            "velocity_decay": 0.2460000067949295,
+            "velocity_threshold": 0.3109999895095825,
+            "wisp_length": 50
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.9110000133514404,
+            "color_increase": 0.20100000500679016,
+            "direction": true,
+            "energy_velocity": false,
+            "fade_blend": 0.19699999690055847,
+            "initial_wisp_velocity": 4.177000045776367,
+            "live_color": false,
+            "max_wisps": 80,
+            "min_delay_frames": 1,
+            "mirror": true,
+            "random": true,
+            "trigger": "pressure",
+            "trigger_threshold": -9.779000282287598,
+            "type": "wisps",
+            "velocity_decay": 0.2460000067949295,
+            "velocity_threshold": 0.3109999895095825,
+            "wisp_length": 50
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.9110000133514404,
+            "color_increase": 0.20100000500679016,
+            "direction": true,
+            "energy_velocity": false,
+            "fade_blend": 0.19699999690055847,
+            "initial_wisp_velocity": 4.177000045776367,
+            "live_color": false,
+            "max_wisps": 80,
+            "min_delay_frames": 1,
+            "mirror": true,
+            "random": true,
+            "trigger": "pressure",
+            "trigger_threshold": -9.779000282287598,
+            "type": "wisps",
+            "velocity_decay": 0.2460000067949295,
+            "velocity_threshold": 0.3109999895095825,
+            "wisp_length": 50
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.9110000133514404,
+            "color_increase": 0.20100000500679016,
+            "direction": true,
+            "energy_velocity": false,
+            "fade_blend": 0.19699999690055847,
+            "initial_wisp_velocity": 4.177000045776367,
+            "live_color": false,
+            "max_wisps": 80,
+            "min_delay_frames": 1,
+            "mirror": true,
+            "random": true,
+            "trigger": "pressure",
+            "trigger_threshold": -9.779000282287598,
+            "type": "wisps",
+            "velocity_decay": 0.2460000067949295,
+            "velocity_threshold": 0.3109999895095825,
+            "wisp_length": 50
+        }
+    ]
+}

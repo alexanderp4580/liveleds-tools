@@ -1,23 +1,25 @@
 {
     "active": true,
+    "audio_source_type": "external",
     "automatic_gain_control": true,
     "brightness": 1.0,
     "change_palette_after_beats": 0,
-    "change_palette_after_seconds": 10,
-    "current_scene": "Wisps 6",
-    "device_id": "cf06c148e5f064fc1b4f68a506880a19",
-    "gain": 75,
-    "logs_enabled": false,
-    "palette": "Astral Glow",
-    "playing_movie_id": 7,
+    "change_palette_after_seconds": 30,
+    "current_scene": "Pro 1",
+    "device_id": "",
+    "gain": 79,
+    "logs_enabled": true,
+    "output_volume": 0,
+    "palette": "Party",
+    "playing_movie_id": 2,
     "selected_palettes": [
-        "Abstract",
         "Astral Glow",
         "Blues",
         "Glitch",
         "Neons",
         "Party",
         "Psych",
-        "Warm"
-    ]
+        "white"
+    ],
+    "volume_control": false
 }

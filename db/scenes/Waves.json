@@ -1,0 +1,96 @@
+{
+    "modules": {
+        "band_peak": {
+            "bass_threshold": 180.0,
+            "mid_threshold": 300.0,
+            "timeout": 300,
+            "treble_threshold": 200.0
+        },
+        "filter": {
+            "active": false,
+            "frequency_center": 200.0,
+            "gain": 0.0,
+            "q_intensity": 0.30000001192092896,
+            "type": "low_pass"
+        },
+        "filter_bank": {
+            "filters": 100,
+            "high_freq": 10000.0,
+            "low_freq": 40.0,
+            "power": 1.2999999523162842
+        },
+        "onset": {
+            "adaptive_whitening": false,
+            "method": "default",
+            "min_interval": 160.0,
+            "silence": -20.0,
+            "threshold": 0.30000001192092896
+        },
+        "pitch": {
+            "method": "default"
+        },
+        "tempo": {
+            "beat_threshold": -15.0,
+            "silence": -15.0,
+            "skewness_threshold": 2.0,
+            "threshold": 0.30000001192092896
+        }
+    },
+    "sequencers": [
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.15199999511241913,
+            "direction": true,
+            "method": "energy",
+            "mirror": true,
+            "palette_modifier": 0.39899998903274536,
+            "power": 1.3359999656677246,
+            "type": "waves",
+            "waviness": 0.5070000290870667
+        },
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.15199999511241913,
+            "direction": true,
+            "method": "energy",
+            "mirror": true,
+            "palette_modifier": 0.39899998903274536,
+            "power": 1.4520000219345093,
+            "type": "waves",
+            "waviness": 0.06400000303983688
+        },
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.15199999511241913,
+            "direction": true,
+            "method": "energy",
+            "mirror": true,
+            "palette_modifier": 0.39899998903274536,
+            "power": 1.8849999904632568,
+            "type": "waves",
+            "waviness": 0.0689999982714653
+        },
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.15199999511241913,
+            "direction": true,
+            "method": "energy",
+            "mirror": true,
+            "palette_modifier": 0.39899998903274536,
+            "power": 0.9390000104904175,
+            "type": "waves",
+            "waviness": 0.10899999737739563
+        },
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.15199999511241913,
+            "direction": true,
+            "method": "energy",
+            "mirror": true,
+            "palette_modifier": 0.39899998903274536,
+            "power": 0.9390000104904175,
+            "type": "waves",
+            "waviness": 0.10899999737739563
+        }
+    ]
+}
