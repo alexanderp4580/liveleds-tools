@@ -61,6 +61,9 @@ if [[ "$MD5_EXPECTED" != "$MD5_RESULT" ]]; then
     rm md5.txt
 fi
 
+# Restart avahi just in case.
+systemctl restart avahi-daemon.service
+
 # Get source name
 SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|\"CM106" | awk -F'"' '$0=$2')
 if [[ -z "$SOURCE_NAME" ]]; then
