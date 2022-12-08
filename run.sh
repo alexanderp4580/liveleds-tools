@@ -18,7 +18,7 @@ function downloadLatestBinary() {
 echo "Starting script."
 
 # Check for missing libs for upgrade
-dpkg -s fftw3 2>/dev/null >/dev/null || apt-get update --allow-releaseinfo-change || sudo apt-get -y install fftw3
+dpkg -s libfftw3-3 2>/dev/null >/dev/null || apt-get update --allow-releaseinfo-change || sudo apt-get -y install fftw3
 dpkg -s libfftw3-dev 2>/dev/null >/dev/null || apt-get update --allow-releaseinfo-change || sudo apt-get -y install libfftw3-dev
 dpkg -s libblas3 2>/dev/null >/dev/null || apt-get update --allow-releaseinfo-change || sudo apt-get -y install libblas3
 dpkg -s libblas-dev 2>/dev/null >/dev/null || apt-get update --allow-releaseinfo-change || sudo apt-get -y install libblas-dev
