@@ -17,6 +17,12 @@ function downloadLatestBinary() {
 # Start
 echo "Starting script."
 
+# Check for missing libs for upgrade
+dpkg -s fftw3 2>/dev/null >/dev/null || sudo apt-get -y install fftw3
+dpkg -s libfftw3-dev 2>/dev/null >/dev/null || sudo apt-get -y install libfftw3-dev
+dpkg -s libblas3 2>/dev/null >/dev/null || sudo apt-get -y install libblas3
+dpkg -s libblas-dev 2>/dev/null >/dev/null || sudo apt-get -y install libblas-dev
+
 # Disable wlan0 Power Management
 /sbin/iw wlan0 set power_save off
 
@@ -63,4 +69,4 @@ fi
 echo "Source name: $SOURCE_NAME."
 
 echo "Running."
-./liveleds --verbose --source device --source-name "$SOURCE_NAME" --sample-rate 44100 --database "db"
+nice -n -20 ./liveleds --verbose --source device --source-name "$SOURCE_NAME" --sample-rate 48000 --database "db"
