@@ -9,6 +9,13 @@ function downloadLatestBinary() {
     echo "Found latest version $VERSION with MD5 hash $MD5"
     echo "Downloading latest binary"
     curl -o liveleds -L https://liveleds.io/version/latest/binary
+
+    # Check for missing libs for upgrade
+    dpkg -s libfftw3-3 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libfftw3)
+    dpkg -s libfftw3-dev 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libfftw3-dev)
+    dpkg -s libblas3 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas3)
+    dpkg -s libblas-dev 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas-dev)
+    
     chmod +x liveleds
     echo "Saving MD5 to file"
     echo $MD5 >>md5.txt
@@ -16,12 +23,6 @@ function downloadLatestBinary() {
 
 # Start
 echo "Starting script."
-
-# Check for missing libs for upgrade
-dpkg -s libfftw3-3 2>/dev/null >/dev/null || apt-get update --allow-releaseinfo-change && sudo apt-get -y install libfftw3
-dpkg -s libfftw3-dev 2>/dev/null >/dev/null || apt-get update --allow-releaseinfo-change && sudo apt-get -y install libfftw3-dev
-dpkg -s libblas3 2>/dev/null >/dev/null || apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas3
-dpkg -s libblas-dev 2>/dev/null >/dev/null || apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas-dev
 
 # Disable wlan0 Power Management
 /sbin/iw wlan0 set power_save off
@@ -36,9 +37,6 @@ pulseaudio --k
 echo "Starting pulseaudio."
 pulseaudio &
 sleep 5
-
-# Set exit on error after the check.
-set -e
 
 # Get binary
 if [ -f "liveleds" ] && [ -f "md5.txt" ]; then
