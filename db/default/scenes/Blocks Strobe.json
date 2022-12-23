@@ -1,95 +1,75 @@
 {
-    "modules": {
-        "band_peak": {
-            "bass_threshold": 180.0,
-            "mid_threshold": 300.0,
-            "timeout": 300,
-            "treble_threshold": 200.0
-        },
-        "filter": {
-            "active": false,
-            "frequency_center": 200.0,
-            "gain": 0.0,
-            "q_intensity": 0.30000001192092896,
-            "type": "low_pass"
-        },
-        "filter_bank": {
-            "filters": 100,
-            "high_freq": 10000.0,
-            "low_freq": 40.0,
-            "power": 1.2999999523162842
-        },
-        "onset": {
-            "adaptive_whitening": true,
-            "method": "hfc",
-            "min_interval": 42.0,
-            "silence": -14.0,
-            "threshold": -1.0
-        },
-        "pitch": {
-            "method": "default"
-        },
-        "tempo": {
-            "beat_threshold": -15.0,
-            "silence": -15.0,
-            "skewness_threshold": 2.0,
-            "threshold": 0.30000001192092896
-        }
-    },
     "sequencers": [
         {
             "brightness": 1.0,
             "color_increase": 0.7870000004768372,
-            "fade_blend": 0.6970000267028809,
-            "length": 79,
-            "min_delay_frames": 20,
-            "randomize": false,
-            "trigger": "pressure",
-            "trigger_threshold": -13.793999671936035,
+            "fade_blend": 0.3019999861717224,
+            "length": 60,
+            "min_delay_frames": 1,
+            "randomize": true,
+            "shape": "sine",
+            "trigger": "hfc_normalized",
+            "trigger_threshold": 0.7960000038146973,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
             "color_increase": 0.7870000004768372,
-            "fade_blend": 0.6970000267028809,
-            "length": 79,
-            "min_delay_frames": 20,
-            "randomize": false,
-            "trigger": "pressure",
-            "trigger_threshold": -13.793999671936035,
+            "fade_blend": 0.3019999861717224,
+            "length": 60,
+            "min_delay_frames": 1,
+            "randomize": true,
+            "shape": "sine",
+            "trigger": "hfc_normalized",
+            "trigger_threshold": 0.7960000038146973,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
             "color_increase": 0.7870000004768372,
-            "fade_blend": 0.6970000267028809,
-            "length": 79,
-            "min_delay_frames": 20,
-            "randomize": false,
-            "trigger": "pressure",
-            "trigger_threshold": -13.793999671936035,
+            "fade_blend": 0.3019999861717224,
+            "length": 60,
+            "min_delay_frames": 1,
+            "randomize": true,
+            "shape": "sine",
+            "trigger": "hfc_normalized",
+            "trigger_threshold": 0.7960000038146973,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
             "color_increase": 0.7870000004768372,
-            "fade_blend": 0.6970000267028809,
-            "length": 79,
-            "min_delay_frames": 20,
-            "randomize": false,
-            "trigger": "pressure",
-            "trigger_threshold": -13.793999671936035,
+            "fade_blend": 0.3019999861717224,
+            "length": 60,
+            "min_delay_frames": 1,
+            "randomize": true,
+            "shape": "sine",
+            "trigger": "hfc_normalized",
+            "trigger_threshold": 0.7960000038146973,
             "type": "blocks"
         },
         {
             "brightness": 1.0,
             "color_increase": 0.7870000004768372,
-            "fade_blend": 0.6970000267028809,
-            "length": 79,
-            "min_delay_frames": 20,
-            "randomize": false,
-            "trigger": "pressure",
-            "trigger_threshold": -13.793999671936035,
+            "fade_blend": 0.3019999861717224,
+            "length": 60,
+            "min_delay_frames": 1,
+            "randomize": true,
+            "shape": "sine",
+            "trigger": "hfc_normalized",
+            "trigger_threshold": 0.7960000038146973,
+            "type": "blocks"
+        },
+        {
+            "brightness": 1.0,
+            "color_increase": 0.7870000004768372,
+            "fade_blend": 0.3019999861717224,
+            "length": 60,
+            "min_delay_frames": 1,
+            "randomize": true,
+            "shape": "sine",
+            "trigger": "hfc_normalized",
+            "trigger_threshold": 0.7960000038146973,
             "type": "blocks"
         }
     ]

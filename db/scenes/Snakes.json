@@ -1,41 +1,4 @@
 {
-    "modules": {
-        "band_peak": {
-            "bass_threshold": 178.0,
-            "mid_threshold": 507.85101318359375,
-            "timeout": 160,
-            "treble_threshold": 200.0
-        },
-        "filter": {
-            "active": false,
-            "frequency_center": 200.0,
-            "gain": 0.0,
-            "q_intensity": 0.30000001192092896,
-            "type": "low_pass"
-        },
-        "filter_bank": {
-            "filters": 100,
-            "high_freq": 10000.0,
-            "low_freq": 40.0,
-            "power": 1.2999999523162842
-        },
-        "onset": {
-            "adaptive_whitening": true,
-            "method": "mkl",
-            "min_interval": 142.4980010986328,
-            "silence": -12.723999977111816,
-            "threshold": -0.45100000500679016
-        },
-        "pitch": {
-            "method": "default"
-        },
-        "tempo": {
-            "beat_threshold": -15.0,
-            "silence": -15.0,
-            "skewness_threshold": 2.0,
-            "threshold": 0.30000001192092896
-        }
-    },
     "sequencers": [
         {
             "brightness": 1.0,
@@ -48,7 +11,8 @@
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,
-            "trigger": "onset",
+            "trigger": "energy_normalized",
+            "trigger_threshold": 0.800000011920929,
             "type": "snakes",
             "velocity_decay": 0.0,
             "velocity_threshold": 0.0
@@ -64,7 +28,8 @@
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,
-            "trigger": "onset",
+            "trigger": "energy_normalized",
+            "trigger_threshold": 0.800000011920929,
             "type": "snakes",
             "velocity_decay": 0.0,
             "velocity_threshold": 0.0
@@ -80,7 +45,8 @@
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,
-            "trigger": "onset",
+            "trigger": "energy_normalized",
+            "trigger_threshold": 0.800000011920929,
             "type": "snakes",
             "velocity_decay": 0.0,
             "velocity_threshold": 0.0
@@ -96,7 +62,8 @@
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,
-            "trigger": "onset",
+            "trigger": "energy_normalized",
+            "trigger_threshold": 0.800000011920929,
             "type": "snakes",
             "velocity_decay": 0.0,
             "velocity_threshold": 0.0
@@ -112,7 +79,25 @@
             "max_snakes": 30,
             "mirror": true,
             "snake_length": 10,
-            "trigger": "onset",
+            "trigger": "energy_normalized",
+            "trigger_threshold": 0.800000011920929,
+            "type": "snakes",
+            "velocity_decay": 0.0,
+            "velocity_threshold": 0.0
+        },
+        {
+            "brightness": 1.0,
+            "color_blend": 0.6420000195503235,
+            "color_increase": 1.0369999408721924,
+            "direction": false,
+            "energy_velocity": false,
+            "fade_blend": 0.28600001335144043,
+            "initial_snake_velocity": 2.1429998874664307,
+            "max_snakes": 30,
+            "mirror": true,
+            "snake_length": 10,
+            "trigger": "energy_normalized",
+            "trigger_threshold": 0.800000011920929,
             "type": "snakes",
             "velocity_decay": 0.0,
             "velocity_threshold": 0.0

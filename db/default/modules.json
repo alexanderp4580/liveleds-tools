@@ -15,10 +15,14 @@
         "type": "low_pass"
     },
     "filter_bank": {
-        "filters": 100,
-        "high_freq": 10000.0,
-        "low_freq": 40.0,
-        "power": 1.2450000047683716
+        "filters": 300,
+        "high_freq": 10722.43359375,
+        "low_freq": 1.0,
+        "power": 1.2970000505447388
+    },
+    "music_utils": {
+        "pressure_level_decay": 0.004999999888241291,
+        "pressure_level_follow": 0.29100000858306885
     },
     "onset": {
         "adaptive_whitening": false,
@@ -28,7 +32,19 @@
         "threshold": 0.30000001192092896
     },
     "pitch": {
-        "method": "default"
+        "method": "default",
+        "pitch_normalized_decay": 0.06700000166893005,
+        "pitch_normalized_follow": 0.2280000001192093
+    },
+    "spec_desc": {
+        "energy_decay": 0.004999999888241291,
+        "energy_follow": 0.35199999809265137,
+        "hfc_decay": 0.004999999888241291,
+        "hfc_follow": 0.31700000166893005
+    },
+    "spectral_shape": {
+        "skewness_decay": 0.004999999888241291,
+        "skewness_follow": 0.27000001072883606
     },
     "tempo": {
         "beat_threshold": -15.0,

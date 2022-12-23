@@ -14,21 +14,6 @@
             "animation_speed": 0.0,
             "brightness": 1.0,
             "type": "static"
-        },
-        {
-            "animation_speed": 0.0,
-            "brightness": 1.0,
-            "type": "static"
-        },
-        {
-            "animation_speed": 0.0,
-            "brightness": 1.0,
-            "type": "static"
-        },
-        {
-            "animation_speed": 0.0,
-            "brightness": 1.0,
-            "type": "static"
         }
     ]
 }
