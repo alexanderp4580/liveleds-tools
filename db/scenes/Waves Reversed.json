@@ -10,6 +10,7 @@
             "multiplier": 0.6330000162124634,
             "palette_modifier": 0.39899998903274536,
             "power": 0.5659999847412109,
+            "scale": 1.0,
             "type": "waves",
             "waviness": 0.2919999957084656
         },
@@ -23,6 +24,7 @@
             "multiplier": 0.6330000162124634,
             "palette_modifier": 0.39899998903274536,
             "power": 0.5659999847412109,
+            "scale": 1.0,
             "type": "waves",
             "waviness": 0.2919999957084656
         },
@@ -36,6 +38,7 @@
             "multiplier": 0.6330000162124634,
             "palette_modifier": 0.39899998903274536,
             "power": 0.5659999847412109,
+            "scale": 1.0,
             "type": "waves",
             "waviness": 0.2919999957084656
         },
@@ -49,6 +52,7 @@
             "multiplier": 0.6330000162124634,
             "palette_modifier": 0.39899998903274536,
             "power": 0.5659999847412109,
+            "scale": 1.0,
             "type": "waves",
             "waviness": 0.2919999957084656
         },
@@ -62,6 +66,7 @@
             "multiplier": 0.6330000162124634,
             "palette_modifier": 0.39899998903274536,
             "power": 0.5659999847412109,
+            "scale": 1.0,
             "type": "waves",
             "waviness": 0.2919999957084656
         },
@@ -75,6 +80,7 @@
             "multiplier": 0.6330000162124634,
             "palette_modifier": 0.39899998903274536,
             "power": 0.5659999847412109,
+            "scale": 1.0,
             "type": "waves",
             "waviness": 0.2919999957084656
         }
