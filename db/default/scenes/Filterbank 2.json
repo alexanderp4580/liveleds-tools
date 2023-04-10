@@ -1,0 +1,76 @@
+{
+    "sequencers": [
+        {
+            "blend_down": 0.5139999985694885,
+            "blend_up": 0.335999995470047,
+            "brightness": 1.0,
+            "color_increase": 0.289000004529953,
+            "kernel_side": 16,
+            "kernel_sigma": 22.0,
+            "offset_modifier": 4.670000076293945,
+            "power": 0.3490000069141388,
+            "threshold": 0.1599999964237213,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.5139999985694885,
+            "blend_up": 0.335999995470047,
+            "brightness": 1.0,
+            "color_increase": 0.289000004529953,
+            "kernel_side": 16,
+            "kernel_sigma": 22.0,
+            "offset_modifier": 4.670000076293945,
+            "power": 0.3490000069141388,
+            "threshold": 0.1599999964237213,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.5139999985694885,
+            "blend_up": 0.335999995470047,
+            "brightness": 1.0,
+            "color_increase": 0.289000004529953,
+            "kernel_side": 16,
+            "kernel_sigma": 22.0,
+            "offset_modifier": 4.670000076293945,
+            "power": 0.3490000069141388,
+            "threshold": 0.1599999964237213,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.5139999985694885,
+            "blend_up": 0.335999995470047,
+            "brightness": 1.0,
+            "color_increase": 0.289000004529953,
+            "kernel_side": 16,
+            "kernel_sigma": 22.0,
+            "offset_modifier": 4.670000076293945,
+            "power": 0.3490000069141388,
+            "threshold": 0.1599999964237213,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.5139999985694885,
+            "blend_up": 0.335999995470047,
+            "brightness": 1.0,
+            "color_increase": 0.289000004529953,
+            "kernel_side": 16,
+            "kernel_sigma": 22.0,
+            "offset_modifier": 4.670000076293945,
+            "power": 0.3490000069141388,
+            "threshold": 0.1599999964237213,
+            "type": "filter_bank"
+        },
+        {
+            "blend_down": 0.5139999985694885,
+            "blend_up": 0.335999995470047,
+            "brightness": 1.0,
+            "color_increase": 0.289000004529953,
+            "kernel_side": 16,
+            "kernel_sigma": 22.0,
+            "offset_modifier": 4.670000076293945,
+            "power": 0.3490000069141388,
+            "threshold": 0.1599999964237213,
+            "type": "filter_bank"
+        }
+    ]
+}
