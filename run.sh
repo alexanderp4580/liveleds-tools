@@ -15,7 +15,7 @@ function downloadLatestBinary() {
     dpkg -s libfftw3-dev 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libfftw3-dev)
     dpkg -s libblas3 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas3)
     dpkg -s libblas-dev 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas-dev)
-    
+
     chmod +x liveleds
     echo "Saving MD5 to file"
     echo $MD5 >>md5.txt
@@ -28,15 +28,16 @@ echo "Starting script."
 /sbin/iw wlan0 set power_save off
 
 # Discard locale information.
-export LC_ALL=C; unset LANGUAGE
-sleep 5
+export LC_ALL=C
+unset LANGUAGE
+sleep 1
 
 # Check for pulseaudio
 pulseaudio --k
 
 echo "Starting pulseaudio."
 pulseaudio &
-sleep 5
+sleep 1
 
 # Get binary
 if [ -f "liveleds" ] && [ -f "md5.txt" ]; then
@@ -61,6 +62,12 @@ fi
 
 # Restart avahi just in case.
 systemctl restart avahi-daemon.service
+
+# Stop AP service if LAN detected
+if $(ethtool eth0 | grep -q "Link detected"); then
+    echo "Stopping AP"
+    systemctl stop create_ap.service
+fi
 
 # Get source name
 SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|\"CM106" | awk -F'"' '$0=$2')
