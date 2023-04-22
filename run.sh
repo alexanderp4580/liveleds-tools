@@ -30,14 +30,14 @@ echo "Starting script."
 # Discard locale information.
 export LC_ALL=C
 unset LANGUAGE
-sleep 1
+sleep 3
 
 # Check for pulseaudio
 pulseaudio --k
 
 echo "Starting pulseaudio."
 pulseaudio &
-sleep 1
+sleep 3
 
 # Get binary
 if [ -f "liveleds" ] && [ -f "md5.txt" ]; then
@@ -72,7 +72,40 @@ fi
 # Get source name
 SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|\"CM106" | awk -F'"' '$0=$2')
 if [[ -z "$SOURCE_NAME" ]]; then
-    echo "Failed to find source device."
+    echo "Failed to find source device. Retrying #1"
+    sleep 3
+
+    # Check for pulseaudio
+    pulseaudio --k
+
+    echo "Starting pulseaudio."
+    pulseaudio &
+    sleep 3
+    SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|\"CM106" | awk -F'"' '$0=$2')
+    if [[ -z "$SOURCE_NAME" ]]; then
+        echo "Failed to find source device. Retrying #2"
+        sleep 6
+
+        # Check for pulseaudio
+        pulseaudio --k
+
+        echo "Starting pulseaudio. #2"
+        pulseaudio &
+        sleep 6
+        SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|\"CM106" | awk -F'"' '$0=$2')
+        if [[ -z "$SOURCE_NAME" ]]; then
+            echo "Failed to find source device. Retrying #3"
+            sleep 10
+
+            # Check for pulseaudio
+            pulseaudio --k
+
+            echo "Starting pulseaudio. #3"
+            pulseaudio &
+            sleep 10
+            SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|\"CM106" | awk -F'"' '$0=$2')
+        fi
+    fi
 fi
 echo "Source name: $SOURCE_NAME."
 
