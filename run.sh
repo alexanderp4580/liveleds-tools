@@ -64,7 +64,7 @@ fi
 systemctl restart avahi-daemon.service
 
 # Stop AP service if LAN detected
-if $(ethtool eth0 | grep -q "Link detected"); then
+if $(ethtool eth0 | grep -q "Link detected: yes"); then
     echo "Stopping AP"
     systemctl stop create_ap.service
 fi
