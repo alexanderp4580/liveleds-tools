@@ -1,6 +1,6 @@
 {
     "band_peak": {
-        "bass_threshold": 180.0,
+        "bass_threshold": 1500.0,
         "mid_threshold": 300.0,
         "timeout_bass": 300,
         "timeout_mid": 200,
@@ -10,22 +10,22 @@
     "filter": {
         "active": false,
         "frequency_center": 200.0,
-        "gain": 0.0,
+        "gain": -28.0,
         "q_intensity": 0.30000001192092896,
         "type": "low_pass"
     },
     "filter_bank": {
         "filters": 300,
-        "high_freq": 10722.43359375,
-        "low_freq": 1.0,
-        "power": 1.2970000505447388
+        "high_freq": 13618.177734375,
+        "low_freq": 5.295000076293945,
+        "power": 0.9789999723434448
     },
     "music_utils": {
-        "pressure_level_decay": 0.004999999888241291,
-        "pressure_level_follow": 0.29100000858306885
+        "pressure_level_decay": 0.004000000189989805,
+        "pressure_level_follow": 0.8349999785423279
     },
     "onset": {
-        "adaptive_whitening": false,
+        "adaptive_whitening": true,
         "method": "default",
         "min_interval": 160.0,
         "silence": -20.0,
@@ -33,12 +33,12 @@
     },
     "pitch": {
         "method": "default",
-        "pitch_normalized_decay": 0.06700000166893005,
-        "pitch_normalized_follow": 0.2280000001192093
+        "pitch_normalized_decay": 0.19900000095367432,
+        "pitch_normalized_follow": 0.847000002861023
     },
     "spec_desc": {
         "energy_decay": 0.004999999888241291,
-        "energy_follow": 0.35199999809265137,
+        "energy_follow": 0.49000000953674316,
         "hfc_decay": 0.004999999888241291,
         "hfc_follow": 0.31700000166893005
     },
@@ -49,7 +49,6 @@
     "tempo": {
         "beat_threshold": -15.0,
         "silence": -15.0,
-        "skewness_threshold": 2.0,
         "tatum_signiture": 2,
         "threshold": 0.30000001192092896
     }

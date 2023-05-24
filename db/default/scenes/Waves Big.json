@@ -1,0 +1,24 @@
+{
+    "sequencers": [
+        {
+            "brightness": 1.0,
+            "color_modifier": 0.828000009059906,
+            "direction": true,
+            "level_blend": 1.0,
+            "method": "energy_normalized",
+            "mirror": true,
+            "multiplier": 0.0430000014603138,
+            "octaves": 3,
+            "palette_modifier": 0.5680000185966492,
+            "persistence": 5.013999938964844,
+            "position_amount": 0.027000000700354576,
+            "power": 1.8559999465942383,
+            "scale": 0.0010000000474974513,
+            "sin_offset": 1.531999945640564,
+            "sin_power": 0.8830000162124634,
+            "type": "waves",
+            "waviness": 0.2329999953508377,
+            "wavinessTwo": 1.0
+        }
+    ]
+}

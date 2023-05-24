@@ -2,8 +2,10 @@
     "sequencers": [
         {
             "brightness": 1.0,
+            "color_blend": 1.0,
             "color_increase": 0.5659999847412109,
             "fade_blend": 0.09399999678134918,
+            "gap": 0,
             "length": 20,
             "min_delay_frames": 3,
             "mirror": false,
@@ -15,8 +17,10 @@
         },
         {
             "brightness": 1.0,
+            "color_blend": 1.0,
             "color_increase": 0.5659999847412109,
             "fade_blend": 0.09399999678134918,
+            "gap": 0,
             "length": 20,
             "min_delay_frames": 3,
             "mirror": false,
@@ -28,8 +32,10 @@
         },
         {
             "brightness": 1.0,
+            "color_blend": 1.0,
             "color_increase": 0.5659999847412109,
             "fade_blend": 0.09399999678134918,
+            "gap": 0,
             "length": 20,
             "min_delay_frames": 3,
             "mirror": false,
@@ -41,8 +47,10 @@
         },
         {
             "brightness": 1.0,
+            "color_blend": 1.0,
             "color_increase": 0.5659999847412109,
             "fade_blend": 0.09399999678134918,
+            "gap": 0,
             "length": 20,
             "min_delay_frames": 3,
             "mirror": false,
@@ -54,8 +62,10 @@
         },
         {
             "brightness": 1.0,
+            "color_blend": 1.0,
             "color_increase": 0.5659999847412109,
             "fade_blend": 0.09399999678134918,
+            "gap": 0,
             "length": 20,
             "min_delay_frames": 3,
             "mirror": false,
@@ -67,8 +77,10 @@
         },
         {
             "brightness": 1.0,
+            "color_blend": 1.0,
             "color_increase": 0.5659999847412109,
             "fade_blend": 0.09399999678134918,
+            "gap": 0,
             "length": 20,
             "min_delay_frames": 3,
             "mirror": false,

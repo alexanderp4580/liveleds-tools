@@ -15,6 +15,7 @@ function downloadLatestBinary() {
     dpkg -s libfftw3-dev 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libfftw3-dev)
     dpkg -s libblas3 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas3)
     dpkg -s libblas-dev 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas-dev)
+    dpkg -s avahi-utils 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install avahi-utils)
 
     chmod +x liveleds
     echo "Saving MD5 to file"
