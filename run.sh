@@ -71,7 +71,7 @@ if $(ethtool eth0 | grep -q "Link detected: yes"); then
 fi
 
 # Get source name
-SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|CM106|USB PnP Audio Device Analog Stereo" | awk -F'\"' '$0=$2' | tr -d '\n')
+SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|CM106|USB PnP Audio Device Analog Stereo|USB Audio Device Analog Stereo" | awk -F'\"' '$0=$2' | tr -d '\n')
 if [[ -z "$SOURCE_NAME" ]]; then
     echo "Failed to find source device. Retrying #1"
     sleep 3
@@ -82,7 +82,7 @@ if [[ -z "$SOURCE_NAME" ]]; then
     echo "Starting pulseaudio."
     pulseaudio &
     sleep 3
-    SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|CM106|USB PnP Audio Device Analog Stereo" | awk -F'\"' '$0=$2' | tr -d '\n')
+    SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|CM106|USB PnP Audio Device Analog Stereo|USB Audio Device Analog Stereo" | awk -F'\"' '$0=$2' | tr -d '\n')
     if [[ -z "$SOURCE_NAME" ]]; then
         echo "Failed to find source device. Retrying #2"
         sleep 6
@@ -93,7 +93,7 @@ if [[ -z "$SOURCE_NAME" ]]; then
         echo "Starting pulseaudio. #2"
         pulseaudio &
         sleep 6
-        SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|CM106|USB PnP Audio Device Analog Stereo" | awk -F'\"' '$0=$2' | tr -d '\n')
+        SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|CM106|USB PnP Audio Device Analog Stereo|USB Audio Device Analog Stereo" | awk -F'\"' '$0=$2' | tr -d '\n')
         if [[ -z "$SOURCE_NAME" ]]; then
             echo "Failed to find source device. Retrying #3"
             sleep 10
@@ -104,7 +104,7 @@ if [[ -z "$SOURCE_NAME" ]]; then
             echo "Starting pulseaudio. #3"
             pulseaudio &
             sleep 10
-            SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|CM106|USB PnP Audio Device Analog Stereo" | awk -F'\"' '$0=$2' | tr -d '\n')
+            SOURCE_NAME=$(pacmd list-sources | grep device.description | egrep "Mono|CM106|USB PnP Audio Device Analog Stereo|USB Audio Device Analog Stereo" | awk -F'\"' '$0=$2' | tr -d '\n')
         fi
     fi
 fi
