@@ -11,10 +11,9 @@ function downloadLatestBinary() {
     curl -o liveleds -L https://liveleds.io/version/latest/binary
 
     # Check for missing libs for upgrade
-    dpkg -s libfftw3-3 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libfftw3)
-    dpkg -s libfftw3-dev 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libfftw3-dev)
-    dpkg -s libblas3 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas3)
-    dpkg -s libblas-dev 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas-dev)
+    dpkg -s libfftw3-dev:armhf 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libfftw3-dev:armhf)
+    dpkg -s libblas3:armhf 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas3:armhf)
+    dpkg -s libblas-dev:armhf 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install libblas-dev:armhf)
     dpkg -s avahi-utils 2>/dev/null >/dev/null || (apt-get update --allow-releaseinfo-change && sudo apt-get -y install avahi-utils)
 
     chmod +x liveleds

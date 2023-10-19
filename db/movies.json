@@ -420,5 +420,71 @@
                 "scene": "Wisps Strobe"
             }
         ]
+    },
+    {
+        "name": "Best Slow",
+        "playlist": [
+            {
+                "duration": 480,
+                "scene": "0 Blocks"
+            },
+            {
+                "duration": 480,
+                "scene": "0 Energy"
+            },
+            {
+                "duration": 480,
+                "scene": "0 Filterbank"
+            },
+            {
+                "duration": 480,
+                "scene": "Mini Lights"
+            },
+            {
+                "duration": 480,
+                "scene": "Snakes"
+            },
+            {
+                "duration": 480,
+                "scene": "Star 2"
+            },
+            {
+                "duration": 480,
+                "scene": "Wisps"
+            }
+        ]
+    },
+    {
+        "name": "Best Fast",
+        "playlist": [
+            {
+                "duration": 45,
+                "scene": "0 Blocks"
+            },
+            {
+                "duration": 45,
+                "scene": "0 Energy"
+            },
+            {
+                "duration": 60,
+                "scene": "0 Filterbank"
+            },
+            {
+                "duration": 45,
+                "scene": "Mini Lights"
+            },
+            {
+                "duration": 45,
+                "scene": "Snakes"
+            },
+            {
+                "duration": 45,
+                "scene": "Star 2"
+            },
+            {
+                "duration": 45,
+                "scene": "Wisps"
+            }
+        ]
     }
 ]

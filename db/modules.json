@@ -16,13 +16,13 @@
     },
     "filter_bank": {
         "filters": 300,
-        "high_freq": 13618.177734375,
+        "high_freq": 9504.5400390625,
         "low_freq": 5.295000076293945,
-        "power": 0.9789999723434448
+        "power": 1.1410000324249268
     },
     "music_utils": {
         "pressure_level_decay": 0.004000000189989805,
-        "pressure_level_follow": 0.8349999785423279
+        "pressure_level_follow": 0.9150000214576721
     },
     "onset": {
         "adaptive_whitening": true,
@@ -40,11 +40,13 @@
         "energy_decay": 0.004999999888241291,
         "energy_follow": 0.49000000953674316,
         "hfc_decay": 0.004999999888241291,
-        "hfc_follow": 0.31700000166893005
+        "hfc_follow": 0.31700000166893005,
+        "specdiff_decay": 0.0005000000237487257,
+        "specdiff_follow": 0.4000000059604645
     },
     "spectral_shape": {
-        "skewness_decay": 0.004999999888241291,
-        "skewness_follow": 0.27000001072883606
+        "skewness_decay": 0.019999999552965164,
+        "skewness_follow": 0.8429999947547913
     },
     "tempo": {
         "beat_threshold": -15.0,

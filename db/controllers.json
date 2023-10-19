@@ -2,59 +2,59 @@
     {
         "active": true,
         "controller": "multi",
-        "display_type": "matrix",
+        "display_type": "extend",
         "leds": [
-            144,
-            144,
-            144,
-            144
+            288,
+            288
         ],
         "outputs": [
             {
-                "ip": "10.61.0.109",
+                "ip": "10.81.0.50",
                 "port": 21324,
                 "type": "WLED"
             },
             {
-                "ip": "10.61.0.113",
-                "port": 21324,
-                "type": "WLED"
-            },
-            {
-                "ip": "10.61.0.111",
-                "port": 21324,
-                "type": "WLED"
-            },
-            {
-                "ip": "10.61.0.108",
-                "port": 21324,
-                "type": "WLED"
-            }
-        ],
-        "outputs_per_row": 2,
-        "type": "multi"
-    },
-    {
-        "active": true,
-        "controller": "multi",
-        "display_type": "duplicate",
-        "leds": [
-            200,
-            200
-        ],
-        "outputs": [
-            {
-                "ip": "10.61.0.110",
-                "port": 21324,
-                "type": "WLED"
-            },
-            {
-                "ip": "10.61.0.112",
+                "ip": "10.81.0.51",
                 "port": 21324,
                 "type": "WLED"
             }
         ],
         "outputs_per_row": 0,
+        "type": "multi"
+    },
+    {
+        "active": true,
+        "controller": "multi",
+        "display_type": "matrix",
+        "leds": [
+            300,
+            300,
+            300,
+            300
+        ],
+        "outputs": [
+            {
+                "ip": "10.81.0.100",
+                "port": 21324,
+                "type": "WLED"
+            },
+            {
+                "ip": "10.81.0.101",
+                "port": 21324,
+                "type": "WLED"
+            },
+            {
+                "ip": "10.81.0.102",
+                "port": 21324,
+                "type": "WLED"
+            },
+            {
+                "ip": "10.81.0.103",
+                "port": 21324,
+                "type": "WLED"
+            }
+        ],
+        "outputs_per_row": 2,
         "type": "multi"
     }
 ]

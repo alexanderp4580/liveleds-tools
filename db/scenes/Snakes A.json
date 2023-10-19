@@ -28,8 +28,8 @@
             "direction": false,
             "energy_velocity": false,
             "fade_blend": 0.46700000762939453,
-            "initial_snake_velocity": 5.199999809265137,
-            "max_snakes": 100,
+            "initial_snake_velocity": 1.11899995803833,
+            "max_snakes": 1,
             "min_delay_frames": 1,
             "mirror": false,
             "skewness_color_modifier": 0.33899998664855957,
@@ -38,7 +38,7 @@
             "trigger_threshold": 0.9990000128746033,
             "type": "snakes",
             "velocity_decay": 0.0,
-            "velocity_threshold": 1.531000018119812
+            "velocity_threshold": 0.0
         },
         {
             "brightness": 1.0,
@@ -48,8 +48,8 @@
             "direction": false,
             "energy_velocity": false,
             "fade_blend": 0.46700000762939453,
-            "initial_snake_velocity": 5.199999809265137,
-            "max_snakes": 100,
+            "initial_snake_velocity": 1.371999979019165,
+            "max_snakes": 1,
             "min_delay_frames": 1,
             "mirror": false,
             "skewness_color_modifier": 0.33899998664855957,
@@ -58,7 +58,7 @@
             "trigger_threshold": 0.9990000128746033,
             "type": "snakes",
             "velocity_decay": 0.0,
-            "velocity_threshold": 1.531000018119812
+            "velocity_threshold": 0.0
         },
         {
             "brightness": 1.0,
