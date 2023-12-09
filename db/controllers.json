@@ -2,8 +2,14 @@
     {
         "active": true,
         "controller": "multi",
-        "display_type": "extend",
+        "display_type": "matrix",
         "leds": [
+            288,
+            288,
+            288,
+            288,
+            288,
+            288,
             288,
             288
         ],
@@ -17,44 +23,39 @@
                 "ip": "10.81.0.51",
                 "port": 21324,
                 "type": "WLED"
-            }
-        ],
-        "outputs_per_row": 0,
-        "type": "multi"
-    },
-    {
-        "active": true,
-        "controller": "multi",
-        "display_type": "matrix",
-        "leds": [
-            300,
-            300,
-            300,
-            300
-        ],
-        "outputs": [
+            },
             {
-                "ip": "10.81.0.100",
+                "ip": "10.81.0.52",
                 "port": 21324,
                 "type": "WLED"
             },
             {
-                "ip": "10.81.0.101",
+                "ip": "10.81.0.53",
                 "port": 21324,
                 "type": "WLED"
             },
             {
-                "ip": "10.81.0.102",
+                "ip": "10.81.0.54",
                 "port": 21324,
                 "type": "WLED"
             },
             {
-                "ip": "10.81.0.103",
+                "ip": "10.81.0.55",
+                "port": 21324,
+                "type": "WLED"
+            },
+            {
+                "ip": "10.81.0.56",
+                "port": 21324,
+                "type": "WLED"
+            },
+            {
+                "ip": "10.81.0.57",
                 "port": 21324,
                 "type": "WLED"
             }
         ],
-        "outputs_per_row": 2,
+        "outputs_per_row": 4,
         "type": "multi"
     }
 ]

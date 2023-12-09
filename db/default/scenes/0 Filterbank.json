@@ -1,16 +1,17 @@
 {
     "sequencers": [
         {
-            "blend_down": 0.38600000739097595,
-            "blend_up": 0.07400000095367432,
+            "blend_down": 0.03500000014901161,
+            "blend_up": 0.0989999994635582,
             "brightness": 1.0,
-            "color_increase": 9.567999839782715,
-            "kernel_side": 16,
-            "kernel_sigma": 7.0,
-            "mirror": false,
-            "offset_modifier": -12.234000205993652,
-            "power": 0.8709999918937683,
-            "threshold": 0.8560000061988831,
+            "color_increase": 0.5830000042915344,
+            "kernel_side": 20,
+            "kernel_sigma": 1.4119999408721924,
+            "mirror": true,
+            "offset_modifier": 21.2810001373291,
+            "power": 4.877999782562256,
+            "threshold": 0.3019999861717224,
+            "time_delta": 0.9710000157356262,
             "type": "filter_bank"
         },
         {
@@ -21,9 +22,10 @@
             "kernel_side": 16,
             "kernel_sigma": 7.0,
             "mirror": false,
-            "offset_modifier": -12.234000205993652,
+            "offset_modifier": 10.909000396728516,
             "power": 0.8709999918937683,
             "threshold": 0.8560000061988831,
+            "time_delta": 0.0,
             "type": "filter_bank"
         },
         {
@@ -34,9 +36,10 @@
             "kernel_side": 16,
             "kernel_sigma": 7.0,
             "mirror": false,
-            "offset_modifier": -12.234000205993652,
+            "offset_modifier": 10.909000396728516,
             "power": 0.8709999918937683,
             "threshold": 0.8560000061988831,
+            "time_delta": 0.0,
             "type": "filter_bank"
         },
         {
@@ -47,9 +50,10 @@
             "kernel_side": 16,
             "kernel_sigma": 7.0,
             "mirror": false,
-            "offset_modifier": -12.234000205993652,
+            "offset_modifier": 10.909000396728516,
             "power": 0.8709999918937683,
             "threshold": 0.8560000061988831,
+            "time_delta": 0.0,
             "type": "filter_bank"
         },
         {
@@ -60,9 +64,10 @@
             "kernel_side": 16,
             "kernel_sigma": 7.0,
             "mirror": false,
-            "offset_modifier": -12.234000205993652,
+            "offset_modifier": 10.909000396728516,
             "power": 0.8709999918937683,
             "threshold": 0.8560000061988831,
+            "time_delta": 0.0,
             "type": "filter_bank"
         },
         {
@@ -73,9 +78,10 @@
             "kernel_side": 16,
             "kernel_sigma": 7.0,
             "mirror": false,
-            "offset_modifier": -12.234000205993652,
+            "offset_modifier": 10.909000396728516,
             "power": 0.8709999918937683,
             "threshold": 0.8560000061988831,
+            "time_delta": 0.0,
             "type": "filter_bank"
         }
     ]

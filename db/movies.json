@@ -1,241 +1,63 @@
 [
     {
-        "name": "All",
+        "name": "Slow",
         "playlist": [
             {
-                "duration": 20,
-                "scene": "Blocks"
+                "duration": 480,
+                "scene": "0 Blocks"
             },
             {
-                "duration": 20,
-                "scene": "Blocks 2"
+                "duration": 480,
+                "scene": "0 Energy"
             },
             {
-                "duration": 20,
-                "scene": "Blocks 3"
+                "duration": 480,
+                "scene": "0 Filterbank"
             },
             {
-                "duration": 20,
-                "scene": "Energy"
+                "duration": 480,
+                "scene": "0 Snakes"
             },
             {
-                "duration": 20,
-                "scene": "Filterbank"
+                "duration": 480,
+                "scene": "0 Wisps"
             },
             {
-                "duration": 20,
+                "duration": 480,
                 "scene": "Mini Lights"
             },
             {
-                "duration": 20,
-                "scene": "Mini Lights Line"
-            },
-            {
-                "duration": 20,
-                "scene": "Pitch"
-            },
-            {
-                "duration": 20,
-                "scene": "Pro Strobe"
-            },
-            {
-                "duration": 20,
-                "scene": "Snakes"
-            },
-            {
-                "duration": 20,
-                "scene": "Snakes Bass"
-            },
-            {
-                "duration": 20,
-                "scene": "Star 2"
-            },
-            {
-                "duration": 20,
-                "scene": "Star Fast"
-            },
-            {
-                "duration": 20,
-                "scene": "Star Slow"
-            },
-            {
-                "duration": 20,
+                "duration": 480,
                 "scene": "Waves"
-            },
-            {
-                "duration": 20,
-                "scene": "Waves Reversed"
-            },
-            {
-                "duration": 20,
-                "scene": "Wisps"
-            },
-            {
-                "duration": 20,
-                "scene": "Wisps Double"
-            },
-            {
-                "duration": 20,
-                "scene": "Wisps 2"
-            },
-            {
-                "duration": 20,
-                "scene": "Wisps Strobe"
             }
         ]
     },
     {
-        "name": "Favorites Fast",
+        "name": "Fast All",
         "playlist": [
             {
-                "duration": 15,
-                "scene": "Blocks"
+                "duration": 20,
+                "scene": "0 Blocks"
             },
             {
-                "duration": 25,
-                "scene": "Energy"
+                "duration": 15,
+                "scene": "0 Energy"
             },
             {
                 "duration": 20,
-                "scene": "Mini Lights"
-            },
-            {
-                "duration": 30,
-                "scene": "Snakes Bass"
-            },
-            {
-                "duration": 25,
-                "scene": "Star 2"
-            },
-            {
-                "duration": 30,
-                "scene": "Waves"
-            },
-            {
-                "duration": 25,
-                "scene": "Wisps Double"
-            }
-        ]
-    },
-    {
-        "name": "Favorites Slow",
-        "playlist": [
-            {
-                "duration": 120,
-                "scene": "Blocks"
-            },
-            {
-                "duration": 160,
-                "scene": "Energy"
-            },
-            {
-                "duration": 60,
-                "scene": "Mini Lights"
-            },
-            {
-                "duration": 70,
-                "scene": "Snakes Bass"
-            },
-            {
-                "duration": 60,
-                "scene": "Star 2"
-            },
-            {
-                "duration": 120,
-                "scene": "Waves"
-            },
-            {
-                "duration": 90,
-                "scene": "Wisps Double"
-            }
-        ]
-    },
-    {
-        "name": "New Fast",
-        "playlist": [
-            {
-                "duration": 2,
-                "scene": "Blocks A"
-            },
-            {
-                "duration": 15,
-                "scene": "Energy"
-            },
-            {
-                "duration": 7,
-                "scene": "Energy A flashy"
-            },
-            {
-                "duration": 15,
-                "scene": "Filterbank"
-            },
-            {
-                "duration": 15,
-                "scene": "Filterbank Mirror"
-            },
-            {
-                "duration": 15,
-                "scene": "Filterbank Reverse "
-            },
-            {
-                "duration": 20,
-                "scene": "Mini Lights"
-            },
-            {
-                "duration": 15,
-                "scene": "Snakes A"
-            },
-            {
-                "duration": 15,
-                "scene": "Snakes A Rev"
-            },
-            {
-                "duration": 20,
-                "scene": "Blocks Strobe"
+                "scene": "0 Filterbank"
             },
             {
                 "duration": 10,
-                "scene": "Snakes A Rev"
+                "scene": "0 Snakes"
             },
             {
-                "duration": 15,
-                "scene": "Snakes A"
-            },
-            {
-                "duration": 10,
-                "scene": "Waves Int"
-            },
-            {
-                "duration": 25,
-                "scene": "Wisps A"
-            },
-            {
-                "duration": 5,
-                "scene": "Waves Big"
-            },
-            {
-                "duration": 15,
-                "scene": "Waves Int"
-            },
-            {
-                "duration": 5,
-                "scene": "Waves Int Rev"
-            },
-            {
-                "duration": 5,
-                "scene": "Waves Int Mir"
-            },
-            {
-                "duration": 12,
-                "scene": "Wisps"
-            },
-            {
-                "duration": 5,
-                "scene": "Wisps A Flash"
+                "duration": 30,
+                "scene": "0 Wisps"
             },
             {
                 "duration": 20,
-                "scene": "Wisps Double"
+                "scene": "Blocks"
             },
             {
                 "duration": 15,
@@ -246,243 +68,43 @@
                 "scene": "Blocks 3"
             },
             {
-                "duration": 5,
-                "scene": "Blocks Strobe"
-            },
-            {
                 "duration": 10,
-                "scene": "Mini Lights Line"
-            },
-            {
-                "duration": 15,
-                "scene": "Mini Lights Line 2"
-            }
-        ]
-    },
-    {
-        "name": "New Slow",
-        "playlist": [
-            {
-                "duration": 130,
-                "scene": "Blocks"
-            },
-            {
-                "duration": 30,
-                "scene": "Blocks 2"
-            },
-            {
-                "duration": 65,
                 "scene": "Energy"
             },
             {
-                "duration": 20,
-                "scene": "Blocks 3"
-            },
-            {
-                "duration": 15,
-                "scene": "Blocks Strobe"
-            },
-            {
-                "duration": 100,
+                "duration": 10,
                 "scene": "Filterbank"
             },
             {
-                "duration": 7,
-                "scene": "Energy A flashy"
-            },
-            {
-                "duration": 75,
-                "scene": "Filterbank 2"
-            },
-            {
-                "duration": 5,
-                "scene": "Filterbank Mirror"
-            },
-            {
-                "duration": 30,
-                "scene": "Filterbank Reverse "
-            },
-            {
-                "duration": 25,
+                "duration": 15,
                 "scene": "Mini Lights"
             },
             {
                 "duration": 35,
-                "scene": "Filterbank"
+                "scene": "Mini Lights Line"
             },
             {
-                "duration": 35,
+                "duration": 10,
                 "scene": "Noise"
             },
             {
-                "duration": 25,
-                "scene": "Noise low"
+                "duration": 15,
+                "scene": "Pitch"
             },
             {
-                "duration": 70,
+                "duration": 22,
                 "scene": "Snakes"
-            },
-            {
-                "duration": 60,
-                "scene": "Snakes A"
-            },
-            {
-                "duration": 50,
-                "scene": "Snakes A Rev"
             },
             {
                 "duration": 15,
                 "scene": "Star 2"
-            },
-            {
-                "duration": 12,
-                "scene": "Star 2 Flicker"
-            },
-            {
-                "duration": 15,
-                "scene": "Star Fast"
-            },
-            {
-                "duration": 30,
-                "scene": "Waves"
-            },
-            {
-                "duration": 45,
-                "scene": "Waves Int"
-            },
-            {
-                "duration": 15,
-                "scene": "Waves Int Dir Mid"
-            },
-            {
-                "duration": 35,
-                "scene": "Wisps"
-            },
-            {
-                "duration": 60,
-                "scene": "Waves"
-            },
-            {
-                "duration": 40,
-                "scene": "Wisps A"
-            },
-            {
-                "duration": 10,
-                "scene": "Wisps A Flash"
-            },
-            {
-                "duration": 25,
-                "scene": "Wisps Strobe 2"
-            },
-            {
-                "duration": 35,
-                "scene": "Energy"
-            }
-        ]
-    },
-    {
-        "name": "Quick",
-        "playlist": [
-            {
-                "duration": 5,
-                "scene": "Filterbank"
-            },
-            {
-                "duration": 5,
-                "scene": "Filterbank Mirror"
-            },
-            {
-                "duration": 5,
-                "scene": "Snakes A"
-            },
-            {
-                "duration": 5,
-                "scene": "Snakes A Rev"
-            },
-            {
-                "duration": 5,
-                "scene": "Snakes A"
-            },
-            {
-                "duration": 5,
-                "scene": "Snakes Rev"
             },
             {
                 "duration": 20,
-                "scene": "Wisps A"
+                "scene": "Waves"
             },
             {
                 "duration": 20,
-                "scene": "Star 2 Flicker"
-            },
-            {
-                "duration": 10,
-                "scene": "Wisps Strobe"
-            }
-        ]
-    },
-    {
-        "name": "Best Slow",
-        "playlist": [
-            {
-                "duration": 480,
-                "scene": "0 Blocks"
-            },
-            {
-                "duration": 480,
-                "scene": "0 Energy"
-            },
-            {
-                "duration": 480,
-                "scene": "0 Filterbank"
-            },
-            {
-                "duration": 480,
-                "scene": "Mini Lights"
-            },
-            {
-                "duration": 480,
-                "scene": "Snakes"
-            },
-            {
-                "duration": 480,
-                "scene": "Star 2"
-            },
-            {
-                "duration": 480,
-                "scene": "Wisps"
-            }
-        ]
-    },
-    {
-        "name": "Best Fast",
-        "playlist": [
-            {
-                "duration": 45,
-                "scene": "0 Blocks"
-            },
-            {
-                "duration": 45,
-                "scene": "0 Energy"
-            },
-            {
-                "duration": 60,
-                "scene": "0 Filterbank"
-            },
-            {
-                "duration": 45,
-                "scene": "Mini Lights"
-            },
-            {
-                "duration": 45,
-                "scene": "Snakes"
-            },
-            {
-                "duration": 45,
-                "scene": "Star 2"
-            },
-            {
-                "duration": 45,
                 "scene": "Wisps"
             }
         ]

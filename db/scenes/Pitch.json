@@ -1,20 +1,20 @@
 {
     "sequencers": [
         {
-            "bottom_offset": 0,
+            "bottom_offset": 21,
             "brightness": 1.0,
-            "color_blend": 0.6370000243186951,
-            "color_fade": 0.041999999433755875,
-            "color_threshold": 0.3440000116825104,
-            "intensity_modifier": 17.429000854492188,
+            "color_blend": 1.0,
+            "color_fade": 0.050999999046325684,
+            "color_threshold": 0.0,
+            "intensity_modifier": 5.65500020980835,
             "kernel_side": 11,
-            "kernel_sigma": 2.063999891281128,
+            "kernel_sigma": 2.9609999656677246,
             "mirror": true,
             "palette_modifier": 1.0,
             "pitch_scale": 0.28299999237060547,
             "snap": 1,
             "type": "pitch",
-            "value_blend": 0.7559999823570251
+            "value_blend": 0.2639999985694885
         },
         {
             "bottom_offset": 0,

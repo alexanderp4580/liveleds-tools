@@ -1,11 +1,21 @@
 {
     "band_peak": {
-        "bass_threshold": 1500.0,
-        "mid_threshold": 300.0,
-        "timeout_bass": 300,
-        "timeout_mid": 200,
-        "timeout_treble": 100,
-        "treble_threshold": 200.0
+        "clap_high": 5000.0,
+        "clap_low": 2000.0,
+        "clap_normalized_decay": 0.026000000536441803,
+        "clap_normalized_follow": 0.8859999775886536,
+        "hi_hat_normalized_decay": 0.02500000037252903,
+        "hi_hat_normalized_follow": 0.921999990940094,
+        "hihat_high": 18642.990234375,
+        "hihat_low": 10672.8974609375,
+        "kick_high": 360.0,
+        "kick_low": 150.0,
+        "kick_normalized_decay": 0.008999999612569809,
+        "kick_normalized_follow": 0.9750000238418579,
+        "snare_high": 2000.0,
+        "snare_low": 400.0,
+        "snare_normalized_decay": 0.027000000700354576,
+        "snare_normalized_follow": 0.8999999761581421
     },
     "filter": {
         "active": false,
@@ -15,14 +25,14 @@
         "type": "low_pass"
     },
     "filter_bank": {
-        "filters": 300,
-        "high_freq": 9504.5400390625,
-        "low_freq": 5.295000076293945,
-        "power": 1.1410000324249268
+        "filters": 512,
+        "high_freq": 15630.037109375,
+        "low_freq": 58.32600021362305,
+        "power": 0.9929999709129333
     },
     "music_utils": {
         "pressure_level_decay": 0.004000000189989805,
-        "pressure_level_follow": 0.9150000214576721
+        "pressure_level_follow": 0.8349999785423279
     },
     "onset": {
         "adaptive_whitening": true,
@@ -32,9 +42,9 @@
         "threshold": 0.30000001192092896
     },
     "pitch": {
-        "method": "default",
-        "pitch_normalized_decay": 0.19900000095367432,
-        "pitch_normalized_follow": 0.847000002861023
+        "method": "mcomb",
+        "pitch_normalized_decay": 0.8930000066757202,
+        "pitch_normalized_follow": 1.0
     },
     "spec_desc": {
         "energy_decay": 0.004999999888241291,
@@ -45,8 +55,8 @@
         "specdiff_follow": 0.4000000059604645
     },
     "spectral_shape": {
-        "skewness_decay": 0.019999999552965164,
-        "skewness_follow": 0.8429999947547913
+        "skewness_decay": 0.004999999888241291,
+        "skewness_follow": 0.27000001072883606
     },
     "tempo": {
         "beat_threshold": -15.0,
